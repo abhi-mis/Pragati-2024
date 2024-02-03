@@ -1,31 +1,22 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./Team.module.css";
 import Section from "../Section/Section";
-
-import { useState, useEffect ,useRef} from "react";
 import { motion } from 'framer-motion';
-
-
 import { gsap } from "gsap";
 import { Power3 } from "gsap";
 import { TimelineLite } from "gsap/gsap-core.js";
-import { CSSPlugin } from 'gsap/CSSPlugin'
-
+import { CSSPlugin } from 'gsap/CSSPlugin';
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-// import Filter from "./Filter/Filter/Filter";
-
 import { Handles } from "../../HomePage/PlinthHandlesSection/Handles";
-
-import {teams} from './data';
+import { teams } from './data';
 
 function Team() {
   gsap.registerPlugin(CSSPlugin);
 
-  //Particle Bg
+  // Particle Bg
   const particlesInit = useCallback(async (engine) => {
-    // console.log(engine);
     await loadFull(engine);
   }, []);
 
@@ -41,17 +32,16 @@ function Team() {
   let item5 = useRef(null);
   const [tl4] = useState(new TimelineLite({ paused: false }));
 
-
   const variants = {
     default: {
       x: mousePosition.x - 10,
       y: mousePosition.y - 12,
     },
     init: {
-      opacity:0
+      opacity: 0
     },
     later: {
-      opacity:1
+      opacity: 1
     },
     text: {
       height: 80,
@@ -74,20 +64,37 @@ function Team() {
 
   const textEnter = () => setCursorVariant("text");
   const textLeave = () => setCursorVariant("default");
-  const handleEnter = ()=> setCursorVariant("handle");
+  const handleEnter = () => setCursorVariant("handle");
 
   useEffect(() => {
-    // console.log(item);
-    setCursorVariant("default"); //remove this line
-    const mouseMove = (e) => {
+    setCursorVariant("default");
+    const throttle = (func, limit) => {
+      let inThrottle;
+      return function () {
+        const args = arguments;
+        const context = this;
+        if (!inThrottle) {
+          func.apply(context, args);
+          inThrottle = true;
+          setTimeout(() => (inThrottle = false), limit);
+        }
+      };
+    };
+
+    const throttledMouseMove = throttle((e) => {
       setMousePosition({
         x: e.clientX,
         y: e.clientY,
       });
+    }, 16); // Adjust the throttle limit as needed
+
+    const mouseMove = (e) => {
+      throttledMouseMove(e);
     };
+
     window.addEventListener("mousemove", mouseMove);
 
-    tl4.fromTo(item5, 1, { opacity: 0, x:"100%" , ease: Power3.easeOut } ,{ opacity: 0.9,y:"-55px",x:0,z:30, ease: Power3.easeOut }).delay(1);
+    tl4.fromTo(item5, 1, { opacity: 0, x: "100%", ease: Power3.easeOut }, { opacity: 0.9, y: "-55px", x: 0, z: 30, ease: Power3.easeOut }).delay(1);
 
     return () => {
       window.removeEventListener("mousemove", mouseMove);
@@ -105,19 +112,19 @@ function Team() {
         transition={{
           x: { delay: 0 },
           y: { delay: 0 },
-          type: 'tween', stiffness: 10000 ,bounce:0
+          type: 'tween', stiffness: 10000, bounce: 0
         }}
       />
 
-      <motion.div 
-      variants={variants}
-      initial="init"
-      whileInView="later"
-      transition={{
-        duration: "1",
-      }}
-      
-      className={styles.outerBg}>
+      <motion.div
+        variants={variants}
+        initial="init"
+        whileInView="later"
+        transition={{
+          duration: "1",
+        }}
+
+        className={styles.outerBg}>
         <header onMouseEnter={textEnter} onMouseLeave={textLeave} className={styles.header}>Our Team</header>
         <div className={styles.outer}>
           {teams.map((section) => {
@@ -137,20 +144,20 @@ function Team() {
             <img src="./Images/gdsc.png" alt="" />
           </div>
           <p onMouseEnter={handleEnter}
-          onMouseLeave={textLeave}>Designed and Developed by GDSC LNMIIT</p>
+            onMouseLeave={textLeave}>Designed and Developed by GDSC LNMIIT</p>
         </div>
-      <div
-            className={`${styles.handle}`}
-            ref={(el) => {
-              item5 = el;
-            }}
-            onMouseEnter={handleEnter} onMouseLeave={textLeave}
-          >
-            <Handles />
-      </div> 
+        <div
+          className={`${styles.handle}`}
+          ref={(el) => {
+            item5 = el;
+          }}
+          onMouseEnter={handleEnter} onMouseLeave={textLeave}
+        >
+          <Handles />
+        </div>
       </motion.div>
 
-      { isDesktop&&<Particles
+      {isDesktop && <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -270,10 +277,8 @@ function Team() {
           },
         }}
       />}
-
     </>
   );
 }
 
 export default Team;
-
