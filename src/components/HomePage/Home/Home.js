@@ -230,7 +230,7 @@ function Home({ auth, setAuth }) {
                 <p className={`${styles.sponsortext}`}>Presents</p>
               </div>
               <div className={`${styles.PlinthTitle}`}>Pragati' </div>
-              <div className={`${styles.PlinthYear}`}>2024</div>
+              <div className={`${styles.PlinthYear}`}>24</div>
             </div>
 
             <div
