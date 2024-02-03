@@ -6,7 +6,7 @@ export const teams = [
     leads: [
       {
         name: "Abhishek Mishra",
-        image: "./images/teams/gunitY19.jfif",
+        image: "./images/teams/Abhishek Mishra.jpg",
         designation: "Developer",
         phone: "CSE-4th Year",
         mail: "b.s.abhi152@gmail.com",
@@ -62,7 +62,7 @@ export const teams = [
     leads: [
       {
         name: "Abhishek Mishra",
-        image: "./images/teams/sharma.jpg",
+        image: "./images/teams/Abhishek Mishra.jpg",
         designation: "Organizer",
         phone: "CSE-4th Year",
         mail: "/",
@@ -81,8 +81,18 @@ export const teams = [
         linkedin: "/",
       },
       {
-        name: "Abhishek Mishra",
-        image: "./images/teams/sharma.jpg",
+        name: "Srijit Sarkar",
+        image: "./images/teams/Srijit Sarkar.jpg",
+        designation: "Organizer",
+        phone: "IT-4th Year",
+        mail: "/",
+        facebook: "/",
+        instagram: "/",
+        linkedin: "/",
+      },
+      {
+        name: "Jayant Joshi",
+        image: "./images/teams/Jayant Joshi.jpg",
         designation: "Organizer",
         phone: "CSE-4th Year",
         mail: "/",
@@ -91,8 +101,8 @@ export const teams = [
         linkedin: "/",
       },
       {
-        name: "Abhishek Mishra",
-        image: "./images/teams/sharma.jpg",
+        name: "Suchi Kumari",
+        image: "./images/teams/Suchi Kumari.jpeg",
         designation: "Organizer",
         phone: "CSE-4th Year",
         mail: "/",
@@ -101,18 +111,8 @@ export const teams = [
         linkedin: "/",
       },
       {
-        name: "Abhishek Mishra",
-        image: "./images/teams/sharma.jpg",
-        designation: "Organizer",
-        phone: "CSE-4th Year",
-        mail: "/",
-        facebook: "/",
-        instagram: "/",
-        linkedin: "/",
-      },
-      {
-        name: "Abhishek Mishra",
-        image: "./images/teams/sharma.jpg",
+        name: "Sneha Singh",
+        image: "./images/teams/Sneha Singh.jpg",
         designation: "Organizer",
         phone: "CSE-4th Year",
         mail: "/",
