@@ -1,24 +1,19 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./Competitions.module.css";
 import "../../fonts/Absolute_Xero/Absolute_Xero.ttf";
-import { motion, useScroll, useSpring  } from 'framer-motion';
-
-import { ReactComponent as Base } from "./base1.svg";
-import { ReactComponent as Diamond } from "./diamond.svg";
-
+import { motion, useScroll, useSpring } from "framer-motion";
 import { gsap } from "gsap";
 import { Power3 } from "gsap";
 import { TimelineLite } from "gsap/gsap-core.js";
 import { CSSPlugin } from "gsap/CSSPlugin";
-
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Filter from "./Filter/Filter/Filter";
-
 import { Handles } from "../HomePage/PlinthHandlesSection/Handles";
+import throttle from "lodash/throttle"; // Import the throttle function
 
-function Competitions({auth,setAuth}) {
+function Competitions({ auth, setAuth }) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({ target: ref });
   const scaleX = useSpring(scrollYProgress, {
@@ -27,9 +22,8 @@ function Competitions({auth,setAuth}) {
     restDelta: 0.001,
   });
 
-  //Particle Bg
+  // Particle Bg
   const particlesInit = useCallback(async (engine) => {
-    // console.log(engine);
     await loadFull(engine);
   }, []);
 
@@ -67,7 +61,7 @@ function Competitions({auth,setAuth}) {
       x: mousePosition.x - 58,
       y: mousePosition.y - 60,
       backgroundColor: "white",
-      mixBlendMode: "difference",
+      // mixBlendMode: "difference", // Comment or remove this line
     },
     diamond: {
       height: 70,
@@ -89,7 +83,6 @@ function Competitions({auth,setAuth}) {
       x: mousePosition.x - 18,
       y: mousePosition.y - 20,
       backgroundColor: "white",
-      //   borderWidth: '2px',
       mixBlendMode: "difference",
     },
     handle: {
@@ -106,16 +99,8 @@ function Competitions({auth,setAuth}) {
     handleafter: {
       opacity: 1,
     },
-    btn: {
-      height: 40,
-      width: 40,
-      x: mousePosition.x - 18,
-      y: mousePosition.y - 20,
-      backgroundColor: "white",
-      //   borderWidth: '2px',
-      mixBlendMode: "difference"
-    },
   };
+
   const [cursorVariant, setCursorVariant] = useState("def");
   const textEnter = () => setCursorVariant("text");
   const handleEnter = () => setCursorVariant("handle");
@@ -123,19 +108,18 @@ function Competitions({auth,setAuth}) {
   const textLeave = () => setCursorVariant("def");
   const btnEnter = () => setCursorVariant("btn");
 
-  // const btnEnter = () => setCursorVariant("btn");
-
   let item3 = useRef(null);
   const [tl] = useState(new TimelineLite({ paused: false }));
 
   useEffect(() => {
-    const mouseMove = (e) => {
+    const throttledMouseMove = throttle((e) => {
       setMousePosition({
         x: e.clientX,
         y: e.clientY,
       });
-    };
-    window.addEventListener("mousemove", mouseMove);
+    }, 32); // Update every ~16ms (equivalent to 60 fps)
+
+    window.addEventListener("mousemove", throttledMouseMove);
 
     tl.fromTo(
       item3,
@@ -145,7 +129,7 @@ function Competitions({auth,setAuth}) {
     );
 
     return () => {
-      window.removeEventListener("mousemove", mouseMove);
+      window.removeEventListener("mousemove", throttledMouseMove);
     };
   }, []);
 
@@ -160,12 +144,12 @@ function Competitions({auth,setAuth}) {
         transition={{
           x: { delay: 0 },
           y: { delay: 0 },
-          type: 'tween', stiffness: 10000 ,bounce:0
+          type: "tween",
+          stiffness: 10000,
+          bounce: 0,
         }}
       />
       <div className={styles.body}>
-
-
         <div ref={ref} className={styles.maindiv}>
           <div className={styles.animDiv}>
             <div className={styles.baseDiv}>
@@ -205,85 +189,19 @@ function Competitions({auth,setAuth}) {
                     TITIONS
                   </motion.div>
                 </div>
-                <Diamond
-                  onMouseEnter={diamondEnter}
-                  onMouseLeave={textLeave}
-                  className={styles.diamond}
-                />
-                <Base className={styles.base} />
               </div>
             </div>
           </div>
 
           <div className={styles.outer}>
-            <Filter btnEnter={btnEnter} auth = {auth} textLeave={textLeave}/>
+            <Filter btnEnter={btnEnter} auth={auth} textLeave={textLeave} />
           </div>
-
-          
-
-          {/* <div className={style2.competitions_body}>
-          <div className={style2.events}>
-            {items.map((item, index) => {
-              return (
-                <motion.div
-                  variants={variants}
-                  initial="notinview"
-                  whileInView="inview"
-                  transition={{
-                    duration: "0.5",
-                  }}
-                  viewport={{ once: false, amount: 0.1, duration: "0.2" }}
-                  key={index}
-                  className={style2.event_card}
-                >
-                  <img src={item.image} className={style2.event_image} alt="" />
-                  <div>
-                    <div className={style2.event_tag}>{item.tag1}</div>
-                    <div className={`${style2.event_tag} ${style2.tag}`}>
-                      {item.tag2}
-                    </div>
-                  </div>
-                  <div className={style2.event_details}>
-                    <div
-                      onMouseEnter={btnEnter}
-                      onMouseLeave={textLeave}
-                      className={style2.event_name}
-                    >
-                      {item.name}
-                    </div>
-                    <div className={style2.event_description}>
-                      {item.description}
-                    </div>
-                    <div className={style2.event_buttons}>
-                      <button
-                        className={style2.event_register}
-                        onMouseEnter={btnEnter}
-                        onMouseLeave={textLeave}
-                        onClick={(e) => handleRegister(e, item.name, index)}
-                      >
-                        {" "}
-                        Register
-                      </button>
-                      <button
-                        className={style2.event_explore}
-                        onMouseEnter={btnEnter}
-                        onMouseLeave={textLeave}
-                        onClick={(e) => handleClick(e, item.name, index)}
-                      >
-                        Explore
-                      </button>
-                    </div>
-                  </div>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div> */}
 
           <motion.div className="progress" style={{ scaleX }} />
         </div>
 
-        <motion.div className={styles.handle}
+        <motion.div
+          className={styles.handle}
           onMouseEnter={handleEnter}
           onMouseLeave={textLeave}
           variants={variants}
@@ -295,129 +213,130 @@ function Competitions({auth,setAuth}) {
           }}
         >
           <Handles />
-
         </motion.div>
 
-      { isDesktop&&<Particles
-        id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={{
-          particles: {
-            number: {
-              value: 40,
-              density: {
-                enable: true,
-                value_area: 500,
-              },
-            },
-            color: {
-              value: "#ffffff",
-            },
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 0,
-                color: "#000000",
-              },
-              polygon: {
-                nb_sides: 3,
-              },
-              image: {
-                src: "",
-                width: 100,
-                height: 100,
-              },
-            },
-            opacity: {
-              value: 0.7,
-              random: true,
-              anim: {
-                enable: true,
-                speed: 1,
-                opacity_min: 0,
-                sync: false,
-              },
-            },
-            size: {
-              value: 3,
-              random: true,
-              anim: {
-                enable: true,
-                speed: 4,
-                size_min: 0.3,
-                sync: false,
-              },
-            },
-            line_linked: {
-              enable: true,
-              distance: 64.09640098708464,
-              color: "#ffffff",
-              opacity: 0.5,
-              width: 1,
-            },
-            move: {
-              enable: true,
-              speed: 1,
-              direction: "none",
-              random: true,
-              straight: false,
-              out_mode: "out",
-              bounce: false,
-              attract: {
-                enable: false,
-                rotateX: 600,
-                rotateY: 600,
-              },
-            },
-          },
-          interactivity: {
-            detect_on: "window",
-            events: {
-              onhover: {
-                enable: true,
-                mode: "repulse",
-              },
-              onclick: {
-                enable: false,
-                mode: "bubble",
-              },
-              resize: true,
-            },
-            modes: {
-              grab: {
-                distance: 400,
+        {isDesktop && (
+          <Particles
+            id="tsparticles"
+            init={particlesInit}
+            loaded={particlesLoaded}
+            options={{
+              particles: {
+                number: {
+                  value: 40,
+                  density: {
+                    enable: true,
+                    value_area: 500,
+                  },
+                },
+                color: {
+                  value: "#ffffff",
+                },
+                shape: {
+                  type: "circle",
+                  stroke: {
+                    width: 0,
+                    color: "#000000",
+                  },
+                  polygon: {
+                    nb_sides: 3,
+                  },
+                  image: {
+                    src: "",
+                    width: 100,
+                    height: 100,
+                  },
+                },
+                opacity: {
+                  value: 0.7,
+                  random: true,
+                  anim: {
+                    enable: true,
+                    speed: 1,
+                    opacity_min: 0,
+                    sync: false,
+                  },
+                },
+                size: {
+                  value: 3,
+                  random: true,
+                  anim: {
+                    enable: true,
+                    speed: 4,
+                    size_min: 0.3,
+                    sync: false,
+                  },
+                },
                 line_linked: {
-                  opacity: 1,
+                  enable: true,
+                  distance: 64.09640098708464,
+                  color: "#ffffff",
+                  opacity: 0.5,
+                  width: 1,
+                },
+                move: {
+                  enable: true,
+                  speed: 1,
+                  direction: "none",
+                  random: true,
+                  straight: false,
+                  out_mode: "out",
+                  bounce: false,
+                  attract: {
+                    enable: false,
+                    rotateX: 600,
+                    rotateY: 600,
+                  },
                 },
               },
-              bubble: {
-                distance: 85.20998174071826,
-                size: 0,
-                duration: 2,
-                opacity: 0,
-                speed: 3,
+              interactivity: {
+                detect_on: "window",
+                events: {
+                  onhover: {
+                    enable: true,
+                    mode: "repulse",
+                  },
+                  onclick: {
+                    enable: false,
+                    mode: "bubble",
+                  },
+                  resize: true,
+                },
+                modes: {
+                  grab: {
+                    distance: 400,
+                    line_linked: {
+                      opacity: 1,
+                    },
+                  },
+                  bubble: {
+                    distance: 85.20998174071826,
+                    size: 0,
+                    duration: 2,
+                    opacity: 0,
+                    speed: 3,
+                  },
+                  repulse: {
+                    distance: 170,
+                    duration: 0.4,
+                  },
+                  push: {
+                    particles_nb: 4,
+                  },
+                  remove: {
+                    particles_nb: 2,
+                  },
+                },
               },
-              repulse: {
-                distance: 170,
-                duration: 0.4,
+              retina_detect: true,
+              fpsLimit: 120,
+              fullScreen: {
+                enable: true,
+                zIndex: 0,
               },
-              push: {
-                particles_nb: 4,
-              },
-              remove: {
-                particles_nb: 2,
-              },
-            },
-          },
-          retina_detect: true,
-          fpsLimit: 120,
-          fullScreen: {
-            enable: true,
-            zIndex: 0,
-          },
-        }}
-      />}
+            }}
+          />
+        )}
       </div>
     </>
   );

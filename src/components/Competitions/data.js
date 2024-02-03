@@ -1,4 +1,4 @@
-export const clubs = ["Astronomy", "Coding", "Debating", "Quizzinga", "Robotics", "Startups", "Fun Events", "Web3", "ASME"];
+export const clubs = ["Innovation Wing", "Coding and Engineering Design", "Quiz and Mathematical Aptitude", "Gaming", "Robotics"];
 
 export const events = [
   {

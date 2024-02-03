@@ -86,7 +86,7 @@ function Team() {
         x: e.clientX,
         y: e.clientY,
       });
-    }, 16); // Adjust the throttle limit as needed
+    }, 100); // Adjust the throttle limit as needed
 
     const mouseMove = (e) => {
       throttledMouseMove(e);
