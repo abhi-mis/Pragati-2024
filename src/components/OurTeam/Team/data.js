@@ -16,7 +16,7 @@ export const teams = [
       },
       {
         name: "Nishka Shrimali",
-        image: "./images/teams/raja.jpg",
+        image: "./images/teams/Nishka.jpg",
         designation: "Developer",
         phone:"CSE-3rd Year",
         mail: "/",
