@@ -225,7 +225,15 @@ nav.main-menu li.active > a,
 .lnmhackslogo{
   height: 25px;
   width: 25px;
+}/* Add this style to your CSS file */
+.plinth-logo {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px;
+  margin-left: -18px; /* Adjust the height as needed */
+  /* Add any other styles you want */
 }
+
+
 
 @media (max-width: 630px) {
   .main-menu{

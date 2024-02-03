@@ -8,14 +8,12 @@ import { TimelineLite } from "gsap/gsap-core.js";
 import { CSSPlugin } from "gsap/CSSPlugin";
 
 import { HiOutlineHome } from "react-icons/hi";
-import { FiAward } from "react-icons/fi";
+import { FiAward, FiBarChart, FiWatch } from "react-icons/fi";
 import { BiBookAlt } from "react-icons/bi";
-// import {FiPhone} from "react-icons/fi";
-import { FiLogIn } from "react-icons/fi";
+
 import { AiOutlineTeam } from "react-icons/ai";
-import { HiOutlineStar } from "react-icons/hi";
-import { FiMic } from "react-icons/fi";
-import { TbBed } from "react-icons/tb";
+
+
 
 import axios from "axios";
 
@@ -73,22 +71,14 @@ export default function Sidebar({auth,setAuth,serverSystemUrl,setUser}) {
           item = el;
         }}
       >
-        <div className="top-header">
-          <a href="/">
-            <img src={imgSrc} className="image-plinth fa" alt="img" />
-            <span
-              className="nav-text plinth-text"
-              style={{
-                fontWeight: "bolder",
-                marginRight: "3",
-                left: "10%",
-              }}
-            >
-              Pragati'24
-            </span>
-          </a>
-        </div>
-
+       
+       <ul className="logout">
+  <li>
+    <div className="fa fa-2x">
+      <img className="plinth-logo" src={require("./plinth.png")} alt="Plinth Logo" />
+    </div>
+  </li>
+</ul>
         <ul>
           <li>
             <a className="anchor" href="/">
@@ -113,16 +103,25 @@ export default function Sidebar({auth,setAuth,serverSystemUrl,setUser}) {
               <div className="fa fa-2x">
                 <FiAward size={25} />
               </div>
-              <span className="nav-text">Competitions</span>
+              <span className="nav-text">Events</span>
+            </a>
+          </li>
+          <li className="has-subnav">
+            <a className="anchor" href="/accomodation">
+              {/* <i className="fa fa-phone fa-2x" /> */}
+              <div className="fa fa-2x">
+                <FiWatch size={25} />
+              </div>
+              <span className="nav-text">Schedule</span>
             </a>
           </li>
           <li className="has-subnav">
             <a className="anchor" href="/campus_ambassador">
               {/* <i className="fa fa-phone fa-2x" /> */}
               <div className="fa fa-2x">
-                <FiMic size={25} />
+                <FiBarChart size={25} />
               </div>
-              <span className="nav-text">Ambassador</span>
+              <span className="nav-text">Dashboard</span>
             </a>
           </li>
           <li className="has-subnav">
@@ -137,18 +136,9 @@ export default function Sidebar({auth,setAuth,serverSystemUrl,setUser}) {
           
         </ul>
 
-        <ul className="logout">
-          <li>
+        
 
-            <button className="anchor" href="/login" onClick = {onLoginHandler}>
-              {/* <i className="fa fa-sign-in fa-2x" /> */}
-              <div className="fa fa-2x">
-                <FiLogIn size={25} />
-              </div>
-              <span className="nav-text">{(auth === "false")?"Login":"Logout"}</span>
-            </button>
-          </li>
-        </ul>
+
       </nav>
     </div>
   );
