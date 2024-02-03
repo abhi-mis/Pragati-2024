@@ -144,7 +144,7 @@ function Team() {
             <img src="./Images/gdsc.png" alt="" />
           </div>
           <p onMouseEnter={handleEnter}
-            onMouseLeave={textLeave}>Designed and Developed by GDSC LNMIIT</p>
+            onMouseLeave={textLeave}>Designed and Developed by Pragati Tech Team 2024</p>
         </div>
         <div
           className={`${styles.handle}`}
