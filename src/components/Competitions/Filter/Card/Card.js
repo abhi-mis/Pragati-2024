@@ -4,16 +4,21 @@ import { motion } from 'framer-motion';
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { useNavigate } from "react-router-dom";
+import _ from 'lodash';
 
 function Card(props) {
   const navigate = useNavigate();
-  const handleRegister = (e, name,key) => {
-    const path=(props.auth == "false") ? "/login" : `/${name}`;
-    navigate(path)
-  };
-  const handleClick = (e, name,key) => {
+
+  // Throttle the click events
+  const throttledHandleRegister = _.throttle((e, name, key) => {
+    const path = (props.auth === "false") ? "/login" : `/${name}`;
+    navigate(path);
+  }, 1000);
+
+  const throttledHandleClick = _.throttle((e, name, key) => {
     navigate(`/${name}`);
-  };
+  }, 1000);
+
   return (
     <motion.div
       key={props.key}
@@ -25,28 +30,38 @@ function Card(props) {
     >
       <div className={styles.imgContainer}>
         <LazyLoadImage 
-        src={ props.imgName == "" ? "./images/coming-soon.jpg" : props.imgName  } 
-        alt="" 
-        effect = "blur"
-        placeholderSrc="./Images/dark-bg-preloader.jpg"
-        height = "100%"
-        width = "100%"
-        className={styles.image} />
+          src={props.imgName === "" ? "./images/coming-soon.jpg" : props.imgName}
+          alt=""
+          effect="blur"
+          placeholderSrc="./Images/dark-bg-preloader.jpg"
+          height="100%"
+          width="100%"
+          className={styles.image}
+        />
       </div>
       <div className={styles.content}>
-        <div className={styles.name} onMouseEnter={()=>{props.btnEnter();}} onMouseLeave={()=>{props.textLeave();}}>{props.name}</div>
+        <div className={styles.name} onMouseEnter={() => {props.btnEnter();}} onMouseLeave={() => {props.textLeave();}}>
+          {props.name}
+        </div>
         <div className={styles.tag}>
           <div className={styles.teamTag}>{props.participation}</div>
           <div className={`${styles.teamTag} ${styles.clubName}`}>{props.club}</div>
         </div>
         <div className={styles.btn}>
-          {/* <button className={styles.regbtn} onClick={(e) => handleRegister(e, props.name, props.index)}>
-            Register
-          </button> */}
-           <button className={styles.regbtn} onClick={(e) => handleRegister(e, props.name.toLowerCase().replaceAll(" ", "_"),props.id)} onMouseEnter={()=>{props.btnEnter();}} onMouseLeave={()=>{props.textLeave();}}>
+          <button
+            className={styles.regbtn}
+            onClick={(e) => throttledHandleRegister(e, props.name.toLowerCase().replaceAll(" ", "_"), props.id)}
+            onMouseEnter={() => {props.btnEnter();}}
+            onMouseLeave={() => {props.textLeave();}}
+          >
             Register
           </button>
-          <button className={styles.expbtn} onClick={(e) => handleClick(e, props.name.toLowerCase().replaceAll(" ", "_"),props.id)} onMouseEnter={()=>{props.btnEnter();}} onMouseLeave={()=>{props.textLeave();}}>
+          <button
+            className={styles.expbtn}
+            onClick={(e) => throttledHandleClick(e, props.name.toLowerCase().replaceAll(" ", "_"), props.id)}
+            onMouseEnter={() => {props.btnEnter();}}
+            onMouseLeave={() => {props.textLeave();}}
+          >
             Explore
           </button>
         </div>

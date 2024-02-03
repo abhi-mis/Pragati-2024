@@ -8,7 +8,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
-
+import _ from 'lodash';
 
 import { motion } from 'framer-motion';
 
@@ -24,32 +24,40 @@ const Explore = ({ auth, setAuth }) => {
   const nameMod = name.replaceAll("_", " ");
   const data = events.filter((event) => event.name.toLowerCase() === nameMod);
   const [val, setVal] = useState(data[0].about);
-  const handleClick = () => {
+
+  // Throttle mouse move
+  const handleMouseMoveThrottled = _.throttle((e) => {
+    setMousePosition({
+      x: e.clientX,
+      y: e.clientY,
+    });
+  }, 100); // Adjust delay as needed
+
+  // Throttle button click
+  const handleClickThrottled = _.throttle(() => {
     navigate(`${location.pathname}/registration`);
-  };
+  }, 1000); // Adjust delay as needed
+
   const handleView = (e) => {
-    const { id } = e.target;
-    // console.log(e.target.id);
-    if (id === "contact") {
-      setVal(<Contact contacts={data[0].contacts} />);
-      setSection("contact");
-    } else if (id === "about") {
-      setVal(data[0].about);
-      setSection("about");
-
-    } else if (id === "structure") {
-      setVal(data[0].structure);
-      setSection("structure");
-
-    } else if (id === "timeline") {
-      setVal(data[0].timeline);
-      setSection("timeline");
-
-    } else if (id === "prizes") {
-      setVal(data[0].prizes);
-      setSection("prizes");
-    }
-  };
+  const { id } = e.target;
+  if (id === "contact") {
+    setVal(<Contact contacts={data[0].contacts} />);
+    setSection("contact");
+  } else if (id === "about") {
+    setVal(data[0].about);
+    setSection("about");
+  } else if (id === "structure") {
+    setVal(data[0].structure);
+    setSection("structure");
+  } else if (id === "timeline") {
+    setVal(data[0].timeline);
+    setSection("timeline");
+  } else if (id === "prizes") {
+    setVal(data[0].prizes);
+    setSection("prizes");
+  }
+};
+ // Adjust delay as needed
 
   //Particle Bg
   const particlesInit = useCallback(async (engine) => {

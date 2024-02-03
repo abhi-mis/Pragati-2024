@@ -23,7 +23,7 @@ const Accomodation = lazy(()=>import("./components/Accomodation/Accomodation"));
 
 
 console.log(process.env.REACT_APP_API_URL);
-const serverSystemUrl="https://api.plinth.co.in";
+const serverSystemUrl="";
 function App() {
   const [loading, setLoading] = useState(false);
   const [auth, setAuth] = useState("false");
