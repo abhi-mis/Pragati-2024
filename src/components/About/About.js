@@ -17,7 +17,7 @@ import { CSSPlugin } from 'gsap/CSSPlugin'
 import { Handles } from "../HomePage/PlinthHandlesSection/Handles";
 
 // import {ReactComponent as Card} from "./card.svg";
-const cardpic = require("./card1.png");
+const cardpic = require("./MCKVIE.png");
 
 function About() {
   gsap.registerPlugin(CSSPlugin);
@@ -94,25 +94,43 @@ function About() {
   const handleEnter = ()=> setCursorVariant("handle");
 
   useEffect(() => {
-    // console.log(item);
-    setCursorVariant("default"); //remove this line
-    const mouseMove = (e)=>{
-      setMousePosition({
-        x:e.clientX,
-        y:e.clientY
-      });
+    setCursorVariant("default"); // Remove this line
+  
+    const throttle = (func, limit) => {
+      let inThrottle;
+      return function () {
+        const args = arguments;
+        const context = this;
+        if (!inThrottle) {
+          func.apply(context, args);
+          inThrottle = true;
+          setTimeout(() => (inThrottle = false), limit);
+        }
+      };
     };
-    window.addEventListener("mousemove",mouseMove);
-
-    tl.fromTo(item1, 4, { opacity: 0, ease: Power3.easeOut } ,{ opacity: 1, ease: Power3.easeOut });
-    tl2.fromTo(item2, 1, {x:"100%", opacity: 0, ease: Power3.easeOut } ,{x:0,opacity: 1, ease: Power3.easeOut });
-    tl3.fromTo(item3, 1, { opacity: 0,x:"100%", ease: Power3.easeOut } ,{opacity: 0.9, x:0,ease: Power3.easeOut }).delay(0.5);
-    tl4.fromTo(item5, 1, { opacity: 0, x:"100%" , ease: Power3.easeOut } ,{ opacity: 0.9,y:"-55px",x:0,z:30, ease: Power3.easeOut }).delay(1);
-
-    return ()=>{
-      window.removeEventListener("mousemove",mouseMove);
-    }
+  
+    const throttledMouseMove = throttle((e) => {
+      setMousePosition({
+        x: e.clientX,
+        y: e.clientY
+      });
+    }, 16); // Adjust the throttle limit as needed
+  
+    const mouseMove = (e) => {
+      throttledMouseMove(e);
+    };
+    window.addEventListener("mousemove", mouseMove);
+  
+    tl.fromTo(item1, 4, { opacity: 0, ease: Power3.easeOut }, { opacity: 1, ease: Power3.easeOut });
+    tl2.fromTo(item2, 1, { x: "100%", opacity: 0, ease: Power3.easeOut }, { x: 0, opacity: 1, ease: Power3.easeOut });
+    tl3.fromTo(item3, 1, { opacity: 0, x: "100%", ease: Power3.easeOut }, { opacity: 0.9, x: 0, ease: Power3.easeOut }).delay(0.5);
+    tl4.fromTo(item5, 1, { opacity: 0, x: "100%", ease: Power3.easeOut }, { opacity: 0.9, y: "-55px", x: 0, z: 30, ease: Power3.easeOut }).delay(1);
+  
+    return () => {
+      window.removeEventListener("mousemove", mouseMove);
+    };
   }, []);
+  
 
   const isDesktop = window.screen.width > 600;
 
@@ -145,13 +163,22 @@ function About() {
             }} onMouseEnter={subtextEnter} onMouseLeave={textLeave} className={`${styles.textcontent}`}>
             
             
-            Plinth, the annual Tech-Fest of The LNMIIT, Jaipur, <b>India's first Web3 based College Tech fest</b>, stretches for three heart-throbbing days. It witnesses immense participation from college students all across the country and is an exhilarating culmination of science, festivities and interactions with renowned personalities, making it a once in a lifetime experience for those in attendance.
+            
+<h3>Pragati 2024 - Igniting Innovation at MCKV Institute of Engineering, Liluah</h3>
+<br></br>
+Dear Tech Enthusiasts,
+<br></br>
+
+Join us at Pragati 2024, MCKVIE's premier TechFest, where innovation meets excellence. Mark your calendars for March 6th to 8th, 2024, at MCKV Institute of Engineering, Liluah.
             <br></br><br></br>
-            With sweat-dripping competitions and lively enthusiasm, the fest is much celebrated amongst the youth. This 2023 iteration of Plinth focuses on instilling Web-3 in our minds and aims at enhancing the cognitive skills of the students, eventually increasing their ability to comprehend the science behind Spatial Web-driven systems and modern technologies. This shall revive the technical temperament of our youth, somewhere left behind in the pandemic times.
+            
+Experience the pinnacle of technology and innovation at Pragati 2024, hosted by MCKV Institute of Engineering, Liluah from 6th to 8th March 2024. Engage in a Coding Extravaganza, witness epic Robo Wars, and compete in Gaming Galore featuring FIFA and NFS. Explore cutting-edge Machine Learning challenges and tackle brain-teasing Math Olympiads. This event invites tech enthusiasts from other colleges to join in a celebration where innovation steals the spotlight. Join us for an unforgettable experience at Pragati 2024!
             <br></br><br></br>
-            Plinth awaits to host you at this amazing three-day amalgamation of science and fiesta from 27th to the 29th of January 2023.
+            Open Invitation to Colleges: Pragati 2024 welcomes students from other colleges to share knowledge and compete..
             <br></br><br></br>
-            Blink; Pink: Plinth!
+            Pragati 2024 is not just an event; it's an experience where innovation knows no bounds. Join us for an unforgettable tech journey!
+            <br></br><br></br>
+            See you at Pragati 2024 – Where Innovation Takes Center Stage!
           </div>
         </div>
       </div>

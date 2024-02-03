@@ -84,7 +84,7 @@ export default function Sidebar({auth,setAuth,serverSystemUrl,setUser}) {
                 left: "10%",
               }}
             >
-              Plinth 2k23
+              Pragati'24
             </span>
           </a>
         </div>
