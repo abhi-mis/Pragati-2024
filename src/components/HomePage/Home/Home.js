@@ -261,7 +261,7 @@ function Home({ auth, setAuth }) {
               item3 = el;
             }} className={`${styles.homeGradientLayerRev}`}>
             <div className={`${styles.CountdownContainer}`}>
-              <div className={`${styles.CountdownHeading}`}>STARTS IN </div>
+              <div className={`${styles.CountdownHeading}`}>- STARTS IN -</div>
             </div>
             <div className={`${styles.Countdown}`} onMouseEnter={countEnter} onMouseLeave={textLeave}>
               <Countdown futureDate={futureDate} />
