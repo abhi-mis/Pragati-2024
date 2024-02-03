@@ -40,9 +40,7 @@ function ContactCard(props) {
         </a>
 
         {/* Add the links for Facebook, Instagram, and LinkedIn with target="_blank" */}
-        <a href={props.details.facebook} className={styles.icon} target="_blank" rel="noopener noreferrer">
-          <FaFacebook className={styles.iconTag} />
-        </a>
+        
         <a href={props.details.instagram} className={styles.icon} target="_blank" rel="noopener noreferrer">
           <GrInstagram className={styles.iconTag} />
         </a>
