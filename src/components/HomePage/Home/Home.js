@@ -224,13 +224,13 @@ function Home({ auth, setAuth }) {
             <div
               ref={(el) => {
                 item2a = el;
-              }} onMouseEnter={textEnter} onMouseLeave={textLeave} className={`${styles.PlinthHeading}`}>
-              <div className={`${styles.sponsordiv}`}>
-                <p className={`${styles.sponsortext}`}>MCKVIE</p>
-                <p className={`${styles.sponsortext}`}>Presents</p>
+              }} onMouseEnter={textEnter} onMouseLeave={textLeave} className={`${styles.PragatiHeading}`}>
+              <div className={`${styles.PragatiSponsorDiv}`}>
+                <p className={`${styles.PragatiSponsorText}`}>MCKVIE</p>
+                <p className={`${styles.PragatiSponsorText}`}>Presents</p>
               </div>
-              <div className={`${styles.PlinthTitle}`}>Pragati' </div>
-              <div className={`${styles.PlinthYear}`}>24</div>
+              <div className={`${styles.PragatiTitle}`}>Pragati' </div>
+              <div className={`${styles.PragatiYear}`}>24</div>
             </div>
 
             <div
@@ -239,7 +239,7 @@ function Home({ auth, setAuth }) {
               }} onMouseEnter={subTextEnter} onMouseLeave={textLeave} className={`${styles.SubHeading}`}>
               <div className={`${styles.HrLine}`} />
               <div>
-                <p className={`${styles.PlinthTag}`}>The Annual Technical Fest</p>
+                <p className={`${styles.PragatiTag}`}>The Annual Technical Fest</p>
               </div>
             </div>
           </div>
