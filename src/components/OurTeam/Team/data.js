@@ -26,7 +26,7 @@ export const teams = [
       },
       {
         name: "Ramjee Rai",
-        image: "./images/teams/Ramjee Rai.jpg",
+        image: "./images/teams/Ramjee Rai.JPG",
         designation: "Developer",
         phone: "CSE-4th Year",
         mail: "/",
@@ -252,7 +252,7 @@ export const teams = [
       },
       {
         name: "Ramjee Rai",
-        image: "./images/teams/Ramjee Rai.jpg",
+        image: "./images/teams/Ramjee Rai.JPG",
         designation: "Organizer",
         phone: "CSE-4th Year",
         mail: "/",
