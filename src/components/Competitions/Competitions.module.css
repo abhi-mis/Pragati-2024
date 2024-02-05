@@ -67,7 +67,7 @@
   z-index: 3;
 }
 
-.animDiv {
+/* .animDiv {
   background-color: transparent;
   height: 100vh;
   width: 100vw;
@@ -77,8 +77,8 @@
   flex-direction: column;
   overflow-y: hidden;
   overflow-x: hidden;
-  /* margin-bottom: 14vh; */
-}
+   margin-bottom: 14vh; 
+} */
 .secDiv {
   background-color: transparent;
   min-height: 100vh;
@@ -156,6 +156,7 @@
 
 .title {
   font-family: Light;
+  margin-top: -260px;
   color: white;
   font-size: 5.5vw;
   /* font-size: 80px; */
@@ -166,7 +167,6 @@
   position: absolute;
   top: 43vh;
   animation: floating2 6s infinite ease-in-out;
-
   /* margin-top: 10%;
   margin-bottom: 7%; */
 }

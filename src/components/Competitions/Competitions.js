@@ -55,14 +55,14 @@ function Competitions({ auth, setAuth }) {
       x: 0,
       opacity: 0.85,
     },
-    text: {
-      height: 120,
-      width: 120,
-      x: mousePosition.x - 58,
-      y: mousePosition.y - 60,
-      backgroundColor: "white",
-      // mixBlendMode: "difference", // Comment or remove this line
-    },
+  text: {
+  height: 120,
+  width: 120,
+  x: mousePosition.x - 58,
+  y: mousePosition.y - 60,
+  backgroundColor: "white",
+  // mixBlendMode: "difference", // Comment or remove this line
+},
     diamond: {
       height: 70,
       width: 70,

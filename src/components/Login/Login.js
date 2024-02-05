@@ -6,7 +6,6 @@ import { Handles } from "../HomePage/PlinthHandlesSection/Handles";
 import axios from "axios";
 import qs from "qs";
 import { motion } from 'framer-motion';
-
 import { gsap } from "gsap";
 import { Power3 } from "gsap";
 import { TimelineLite } from "gsap/gsap-core.js";
