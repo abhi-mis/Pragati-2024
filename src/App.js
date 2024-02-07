@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import Loader from "./components/Loader/Loader";
 import axios from "axios";
 // import CreateTeam from "./components/CreateTeam/CreateTeam";
-import Payment from "./components/Payments/Payment";
 
 const Aboutus = lazy(()=>import("./components/About/About"));
 const Admin = lazy(()=>import("./components/Admin/Admin"));
@@ -17,8 +16,6 @@ const Reg = lazy(()=>import("./components/Registration/Reg"));
 const Explore = lazy(()=>import("./components/Explore/Explore"));
 const Team = lazy(()=>import("./components/OurTeam/Team/Team"));
 const CampusAmb = lazy(()=>import("./components/CampusAmb/CampusAmb"));
-const LnmHacks = lazy(()=>import("./components/LnmHacks/LnmHacks"));
-const Login = lazy(()=>import("./components/Login/Login"));
 const Accomodation = lazy(()=>import("./components/Accomodation/Accomodation"));
 
 
@@ -72,16 +69,14 @@ function App() {
             <Route path="aboutus" element={<Aboutus  />} />
             <Route path="ourteam" element={<Team />} />
             <Route path="/admin" element={(auth==="admin") && (<Admin serverSystemUrl={serverSystemUrl}/>)} />
-            <Route path="komet" element={<Komet />} />
             <Route path="competitions" element={<Competitions auth={auth} setAuth={setAuth}/>} />
             <Route path="accomodation" element={<Accomodation auth={auth} />} />
             <Route path="/:name" element={<Explore auth={auth} setAuth={setAuth}/>}/>
             {(auth==="false")&&<Route path="/registration" element={<Reg auth={auth} setAuth={setAuth} serverSystemUrl={serverSystemUrl}/>}/>
             }<Route path="campus_ambassador" element={<CampusAmb auth={auth} setAuth={setAuth}/>} />
-            <Route path="lnm_hacks" element={<LnmHacks auth={auth} setAuth={setAuth} />} />
-            {(auth==="false")&&(<Route path="/login" element={<Login auth={auth} setAuth={setAuth} serverSystemUrl={serverSystemUrl}/>}/>
-            )}
-            <Route path="/payments/:eventname"  element={auth==="false"?<Login auth={auth} setAuth={setAuth} serverSystemUrl={serverSystemUrl}/>:<Payment userid={userId} accomodation={accomodation} auth={auth} setAuth={setAuth} url={serverSystemUrl}/>} />
+           
+           
+            
             {/* <Route path="create-team" element={<CreateTeam/>} /> */}
           </Routes>
           </Suspense>

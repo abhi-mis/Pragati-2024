@@ -61,7 +61,6 @@ function Competitions({ auth, setAuth }) {
   x: mousePosition.x - 58,
   y: mousePosition.y - 60,
   backgroundColor: "white",
-  // mixBlendMode: "difference", // Comment or remove this line
 },
     diamond: {
       height: 70,
