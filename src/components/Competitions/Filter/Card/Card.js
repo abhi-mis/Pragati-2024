@@ -48,14 +48,17 @@ function Card(props) {
           <div className={`${styles.teamTag} ${styles.clubName}`}>{props.club}</div>
         </div>
         <div className={styles.btn}>
-          <button
-            className={styles.regbtn}
-            onClick={(e) => throttledHandleRegister(e, props.name.toLowerCase().replaceAll(" ", "_"), props.id)}
-            onMouseEnter={() => {props.btnEnter();}}
-            onMouseLeave={() => {props.textLeave();}}
-          >
-            Register
-          </button>
+          
+            <button
+  className={styles.regbtn}
+  onClick={(e) => throttledHandleRegister(e, props.name.toLowerCase().replaceAll(" ", "_"), props.id)}
+  onMouseEnter={() => {props.btnEnter();}}
+  onMouseLeave={() => {props.textLeave();}}
+>
+  <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">Register</a>
+</button>
+
+           
           <button
             className={styles.expbtn}
             onClick={(e) => throttledHandleClick(e, props.name.toLowerCase().replaceAll(" ", "_"), props.id)}

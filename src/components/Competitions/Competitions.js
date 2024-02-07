@@ -55,13 +55,13 @@ function Competitions({ auth, setAuth }) {
       x: 0,
       opacity: 0.85,
     },
-  text: {
-  height: 120,
-  width: 120,
-  x: mousePosition.x - 58,
-  y: mousePosition.y - 60,
-  backgroundColor: "white",
-},
+    text: {
+      height: 120,
+      width: 120,
+      x: mousePosition.x - 58,
+      y: mousePosition.y - 60,
+      backgroundColor: "white",
+    },
     diamond: {
       height: 70,
       width: 70,
@@ -103,7 +103,6 @@ function Competitions({ auth, setAuth }) {
   const [cursorVariant, setCursorVariant] = useState("def");
   const textEnter = () => setCursorVariant("text");
   const handleEnter = () => setCursorVariant("handle");
-  const diamondEnter = () => setCursorVariant("diamond");
   const textLeave = () => setCursorVariant("def");
   const btnEnter = () => setCursorVariant("btn");
 
@@ -130,7 +129,7 @@ function Competitions({ auth, setAuth }) {
     return () => {
       window.removeEventListener("mousemove", throttledMouseMove);
     };
-  }, []);
+  }, [tl]); // Add tl to the dependency array
 
   const isDesktop = window.screen.width > 600;
 

@@ -94,8 +94,8 @@ function About() {
   const handleEnter = ()=> setCursorVariant("handle");
 
   useEffect(() => {
-    setCursorVariant("default"); // Remove this line
-  
+    setCursorVariant("default");
+    
     const throttle = (func, limit) => {
       let inThrottle;
       return function () {
@@ -114,7 +114,7 @@ function About() {
         x: e.clientX,
         y: e.clientY
       });
-    }, 16); // Adjust the throttle limit as needed
+    }, 16);
   
     const mouseMove = (e) => {
       throttledMouseMove(e);
@@ -129,7 +129,7 @@ function About() {
     return () => {
       window.removeEventListener("mousemove", mouseMove);
     };
-  }, []);
+  }, [tl, tl2, tl3, tl4]); // Add dependencies here
   
 
   const isDesktop = window.screen.width > 600;

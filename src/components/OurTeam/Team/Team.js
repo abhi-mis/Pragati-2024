@@ -80,27 +80,26 @@ function Team() {
         }
       };
     };
-
+  
     const throttledMouseMove = throttle((e) => {
       setMousePosition({
         x: e.clientX,
         y: e.clientY,
       });
     },100); // Adjust the throttle limit as needed
-
+  
     const mouseMove = (e) => {
       throttledMouseMove(e);
     };
-
+  
     window.addEventListener("mousemove", mouseMove);
-
+  
     tl4.fromTo(item5, 1, { opacity: 0, x: "100%", ease: Power3.easeOut }, { opacity: 0.9, y: "-55px", x: 0, z: 30, ease: Power3.easeOut }).delay(1);
-
+  
     return () => {
       window.removeEventListener("mousemove", mouseMove);
     };
-  }, []);
-
+  }, [tl4]); // Add tl4 to the dependency array
   const isDesktop = window.screen.width > 600;
 
   return (

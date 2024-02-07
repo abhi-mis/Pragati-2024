@@ -15,8 +15,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-import axios from "axios";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Home({ auth, setAuth }) {
   // Particle Bg
@@ -123,7 +122,7 @@ function Home({ auth, setAuth }) {
     return () => {
       window.removeEventListener("mousemove", mouseMove);
     };
-  }, []);
+  }, [tl, tl2, tl3, tl4]); // Add tl, tl2, tl3, tl4 to the dependency array
 
   const variants = {
     default: {
@@ -312,7 +311,7 @@ function Home({ auth, setAuth }) {
               },
             },
             opacity: {
-              value: 0.4166266064160501,
+              value: 0.9166266064160501,
               random: false,
               anim: {
                 enable: false,
@@ -326,7 +325,7 @@ function Home({ auth, setAuth }) {
               random: true,
               anim: {
                 enable: false,
-                speed: 40,
+                speed: 4,
                 size_min: 0.1,
                 sync: false,
               },
@@ -340,7 +339,7 @@ function Home({ auth, setAuth }) {
             },
             move: {
               enable: true,
-              speed: 5.409640098708463,
+              speed: 2.409640098708463,
               direction: "none",
               random: true,
               straight: false,
@@ -348,8 +347,8 @@ function Home({ auth, setAuth }) {
               bounce: false,
               attract: {
                 enable: true,
-                rotateX: 600,
-                rotateY: 1200,
+                rotateX: 60,
+                rotateY: 10,
               },
             },
           },
@@ -357,7 +356,7 @@ function Home({ auth, setAuth }) {
             detect_on: "window",
             events: {
               onhover: {
-                enable: true,
+                enable: false,
                 mode: "repulse",
               },
               onclick: {
@@ -368,33 +367,33 @@ function Home({ auth, setAuth }) {
             },
             modes: {
               grab: {
-                distance: 400,
+                distance: 0.1,
                 line_linked: {
                   opacity: 1,
                 },
               },
               bubble: {
-                distance: 400,
+                distance: 100,
                 size: 40,
                 duration: 2,
                 opacity: 8,
                 speed: 0.1,
               },
               repulse: {
-                distance: 100, // Adjust the distance for the repulsion effect
+                distance: 0, // Adjust the distance for the repulsion effect
                 duration: 0.4,
-                speed: 2, // Adjust the speed of repulsion
+                speed: 0.02, // Adjust the speed of repulsion
                 random: true, // Add randomness to the repulsion direction
               },
               push: {
-                particles_nb: 4, // Adjust the number of particles pushed on click
+                particles_nb: 1, // Adjust the number of particles pushed on click
               },
               remove: {
                 particles_nb: 2,
               },
             },
           },
-          retina_detect: true,
+          retina_detect: false,
           fpsLimit: 120,
           fullScreen: {
             enable: true,
