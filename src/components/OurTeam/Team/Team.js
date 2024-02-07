@@ -9,7 +9,7 @@ import { CSSPlugin } from 'gsap/CSSPlugin';
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { Handles } from "../../HomePage/PlinthHandlesSection/Handles";
+import { Handles } from "../../HomePage/HandlesSection/Handles";
 import { teams } from './data';
 
 function Team() {

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Countdown } from "../Timer/Countdown/Countdown.js";
-import { Handles } from "../PlinthHandlesSection/Handles.js";
+import { Handles } from "../HandlesSection/Handles.js";
 import styles from "./Home.module.css";
 import "../../../fonts/Absolute_Xero/Absolute_Xero.ttf";
 
@@ -166,7 +166,7 @@ function Home({ auth, setAuth }) {
 
   const fetchData = () => {
     if (auth === "false") {
-      navigate("/registration")
+      navigate("/competitions")
       console.log("navigated")
     }
     else {

@@ -14,7 +14,7 @@ import { Power3 } from "gsap";
 import { TimelineLite } from "gsap/gsap-core.js";
 import { CSSPlugin } from 'gsap/CSSPlugin'
 
-import { Handles } from "../HomePage/PlinthHandlesSection/Handles";
+import { Handles } from "../HomePage/HandlesSection/Handles";
 
 // import {ReactComponent as Card} from "./card.svg";
 const cardpic = require("./MCKVIE.png");

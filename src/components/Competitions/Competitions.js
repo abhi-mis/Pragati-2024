@@ -10,7 +10,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Filter from "./Filter/Filter/Filter";
-import { Handles } from "../HomePage/PlinthHandlesSection/Handles";
+import { Handles } from "../HomePage/HandlesSection/Handles";
 import throttle from "lodash/throttle"; // Import the throttle function
 
 function Competitions({ auth, setAuth }) {
