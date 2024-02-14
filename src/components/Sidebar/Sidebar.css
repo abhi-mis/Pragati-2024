@@ -228,8 +228,7 @@ nav.main-menu li.active > a,
 }/* Add this style to your CSS file */
 .plinth-logo {
   width: 30px; /* Adjust the width as needed */
-  height: 30px;
-  margin-left: -18px; /* Adjust the height as needed */
+  height: 30px; /* Adjust the height as needed */
   /* Add any other styles you want */
 }
 
