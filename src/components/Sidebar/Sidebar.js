@@ -74,7 +74,7 @@ export default function Sidebar() {
             </a>
           </li>
           <li className="has-subnav">
-            <a className="anchor" href="/competitions">
+            <a className="anchor" href="/schedule">
               <div className="fa fa-2x">
                 <MdOutlineCalendarMonth size={25} />
               </div>
