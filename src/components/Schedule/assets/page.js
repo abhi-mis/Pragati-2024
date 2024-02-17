@@ -5,6 +5,7 @@ import backgroundGlow from './images/bg_svg.svg'
 import backgroundTexture from './images/texture.svg'
 import hashtag from './images/hashtags.svg'
 import star from './images/star.svg'
+import layer_blur from './images/layer-blur.svg'
 const SchedulePage = () => {
   const [toggle, setToggle] = useState(1)
 
@@ -13,11 +14,13 @@ const SchedulePage = () => {
   }
   return (
     <div style={{ backgroundImage: `url(${backgroundTexture})` }} className=' bg-cover w-full h-auto absolute bg-opacity-30'>
+      <img src={layer_blur} alt='layer blur' width={1920} height={560} className=' object-cover w-full absolute bottom-0 left-20 lg:block hidden' />
+      <img src={backgroundGlow} alt='bg_glow' width={1920} height={560} className=' object-cover w-full absolute top-0' />
     <div className='lg:max-w-[1220px] md:max-w-[640px] max-w-[360px] mx-auto'>
     <div className='flex flex-col justify-center items-center text-white relative '>
-      <img src={backgroundGlow} alt='bg_glow' width={1920} height={560} className=' object-cover w-full absolute top-0' />
+      
       <h1 className=' font-Corben text-lg md:text-xl lg:text-[40px] tracking-wider font-bold font lg:pt-24 lg:pb-24 md:pt-8 pt-8 pb-28'>Schedule of Events </h1>
-      <div className=' block-tabs flex flex-row lg:gap-[124px] md:gap-12 gap-4 z-20  absolute lg:top-44 md:top-24 top-24'>
+      <div className=' block-tabs flex flex-row lg:gap-[124px] md:gap-12 gap-4 z-20 absolute lg:top-44 md:top-24 top-24'>
         <div className={toggle===1?" tabs active-tabs bg-white text-[#333333] lg:py-8 py-4 lg:px-12 px-6 lg:text-[20px] md:text-md text-xs border border-white relative" : "tabs  lg:py-8 py-4 lg:px-12 px-6 lg:text-[20px] md:text-md text-xs bg-[#D7700B] border border-white relative text-white"} onClick={() => {
           toggletab(1)
         }}>
