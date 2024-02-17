@@ -41,15 +41,15 @@ const SchedulePage = () => {
           <img src={star} alt='roteing star' width={120} height={120} className=' absolute lg:right-20 md:right-20 -right-3 top-48 lg:top-80 md:top-80 lg:w-24 w-16 animate-spin-slowest hover:animate-spin-slow z-50' />
       <div className='content-tab border border-white border-opacity-50 bg-white bg-opacity-10 z-0 '>
             <div className={toggle === 1 ? "content active-content block" : "content hidden"}>
-              <h2>Content 1</h2>
+              {/* <h2>Content 1</h2> */}
             <EventList day={1} />
         </div>
         <div className={toggle===2? "content active-content block": "content hidden"}>
-              <h2>Content 2</h2>
+              {/* <h2>Content 2</h2> */}
               <EventList day={2} />
         </div>
         <div className={toggle===3? "content active-content block": "content hidden"}>
-              <h2>Content 3</h2>
+              {/* <h2>Content 3</h2> */}
               <EventList day={3} />
         </div>
         </div>

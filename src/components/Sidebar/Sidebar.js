@@ -91,7 +91,7 @@ export default function Sidebar() {
           </li>
         </ul>
         <ul className="logout">
-          <div className="fa fa-2x">
+          <div className="">
             <img
               className="plinth-logo"
               src={require("./plinth.png")}

@@ -11,7 +11,7 @@
     left: calc(50% - 2px);
     width: 2px;
     height: 90%;
-    margin-top: 8%;
+    margin-top: 12%;
     border-left: 2px dotted #fff;
 }
 
@@ -127,7 +127,7 @@
         left: calc(16% - 2px);
         width: 2px;
         height: 90%;
-        margin-top: 30%;
+        margin-top: 28%;
         border-left: 2px dotted #fff;
     }
     .timelineitem_content,
