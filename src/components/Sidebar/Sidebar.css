@@ -229,8 +229,7 @@ nav.main-menu li.active > a,
 .plinth-logo {
   width: 30px; /* Adjust the width as needed */
   height: 30px;
-  margin-left: -18px; /* Adjust the height as needed */
-  /* Add any other styles you want */
+  margin: 8px;
 }
 
 

@@ -11,6 +11,7 @@ import { HiOutlineHome } from "react-icons/hi";
 import { FiAward } from "react-icons/fi";
 import { BiBookAlt } from "react-icons/bi";
 import { AiOutlineTeam } from "react-icons/ai";
+import { MdOutlineCalendarMonth } from "react-icons/md";
 
 export default function Sidebar() {
   const location = useLocation();
@@ -45,17 +46,8 @@ export default function Sidebar() {
           item = el;
         }}
       >
-        <ul className="logout">
-          <li>
-            <div className="fa fa-2x">
-              <img
-                className="plinth-logo"
-                src={require("./plinth.png")}
-                alt="Plinth Logo"
-              />
-            </div>
-          </li>
-        </ul>
+
+        
         <ul>
           <li>
             <a className="anchor" href="/">
@@ -82,6 +74,14 @@ export default function Sidebar() {
             </a>
           </li>
           <li className="has-subnav">
+            <a className="anchor" href="/schedule">
+              <div className="fa fa-2x">
+                <MdOutlineCalendarMonth size={25} />
+              </div>
+              <span className="nav-text">Schedule</span>
+            </a>
+          </li>
+          <li className="has-subnav">
             <a className="anchor" href="/ourteam">
               <div className="fa fa-2x">
                 <AiOutlineTeam size={25} />
@@ -89,6 +89,15 @@ export default function Sidebar() {
               <span className="nav-text">Our Team</span>
             </a>
           </li>
+        </ul>
+        <ul className="logout">
+          <div className="">
+            <img
+              className="plinth-logo"
+              src={require("./plinth.png")}
+              alt="Plinth Logo"
+              />
+            </div>
         </ul>
       </nav>
     </div>

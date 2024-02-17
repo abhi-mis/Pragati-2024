@@ -3,7 +3,7 @@ import React, { lazy, Suspense, useEffect, useState } from "react";
 import Home from "./components/HomePage/Home/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Loader from "./components/Loader/Loader";
-
+import SchedulePage from "./components/Schedule/assets/page";
 const Aboutus = lazy(() => import("./components/About/About"));
 const Sidebar = lazy(() => import("./components/Sidebar/Sidebar"));
 const Competitions = lazy(() =>
@@ -41,6 +41,7 @@ function App() {
               }
             />
             <Route path="aboutus" element={<Aboutus />} />
+            <Route path="schedule" element={<SchedulePage />} />
             <Route path="ourteam" element={<Team />} />
             <Route
               path="competitions"

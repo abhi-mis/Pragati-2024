@@ -1,0 +1,91 @@
+
+{
+    "day": 1,
+    "date": "March 03rd, 2024",
+    "events": [
+        {
+            "time": "09:00 am",
+            "subhead": "Participant Registration",
+            "text": "From 09:00 am - 09:30 am, participant registration will continue at Amtala in MCKVIE College campus. Participants are requested to bring valid college id to register at the registration desk.",
+            "list": []
+        },
+        {
+            "time": "09:30 am",
+            "subhead": "Inauguration Program",
+            "text": "Inauguration program of PRAGATI 2024, the annual techfest of MCKVIE will begin at the Malay Manch.",
+            "list": []
+        },
+        {
+            "time": "10:00 am - 12:30 PM IST",
+            "subhead": "Kickoff Pragati 2024",
+            "text": "",
+            "list": [
+                {
+                    "event": "Robo FIFA : round l",
+                    "route": "/"
+                },
+                {
+                    "event": "Robo War : round l",
+                    "route": "/"
+                },
+                {
+                    "event": "Chase The Maze : round l",
+                    "route": "/"
+                },
+                {
+                    "event": "Line Follower : round l",
+                    "route": "/"
+                }
+            ]
+        },
+        {
+            "time": "10:00 am - 12:30 PM IST",
+            "subhead": "Events Continue",
+            "text": "",
+            "list": [
+                {
+                    "event":"Code Fiesta",
+                    "route": "/"
+                },
+                {
+                    "event":"Innovative Idea Contest",
+                    "route": "/"
+                },
+                {
+                    "event":"Innovative Model",
+                    "route": "/"
+                },
+                {
+                    "event":"CATIA",
+                    "route": "/"
+                },
+                {
+                    "event":"Circuit Design",
+                    "route": "/"
+                }
+            ]
+        },
+        {
+            "time": "13:00 Pm - 14:00 PM IST ",
+            "subhead": " Break Time",
+            "text": "",
+            "list": []
+        },
+        {
+            "time": "14:00 am - 16:30 PM IST ",
+            "subhead": "Events continue",
+            "text": "Alongside other mentioned these following events will begins",
+            "list": [
+                {
+                    "event":"FIFA",
+                    "route": "/"
+                },
+                {
+                    "event":"NFS Most Wanted",
+                    "route": "/"
+                }
+            ]
+        }
+    ]
+    
+}
