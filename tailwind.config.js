@@ -8,6 +8,10 @@ module.exports = {
     extend: {
       fontFamily: {
         Corben: ['Corben', 'serif'],
+      },
+      animation: {
+        'spin-slowest': 'spin 20s linear infinite',
+        'spin-slow': 'spin 5s linear infinite',
       }
     },
   },

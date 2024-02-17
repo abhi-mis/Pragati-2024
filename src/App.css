@@ -4,7 +4,7 @@
 
 * {
   /* transition: all 0.3s ease-in-out 0.01s; */
-  cursor: none;
+  cursor: auto;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -30,6 +30,7 @@ body {
   src: local("Agrandir"),
     url("./fonts/Agrandir.otf") format("opentype");
 }
+
 
 .cursor {
   height: 24px;
@@ -67,4 +68,6 @@ body {
   top: 0px;
   z-index: 5;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap')
+

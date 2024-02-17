@@ -1,5 +1,4 @@
-import { Fragment } from "react";
-import React from "react";
+
 export const teams = [
   {
     team: "Tech Team",
