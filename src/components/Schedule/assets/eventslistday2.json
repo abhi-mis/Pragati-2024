@@ -20,10 +20,22 @@
             "subhead": "Kickoff Pragati 2024",
             "text": "",
             "list": [
-                "Robo FIFA : round l",
-                "Robo War : round l",
-                "Chase The Maze : round l",
-                "Line Follower : round l"
+                {
+                    "event": "Robo FIFA : round l",
+                    "route": "/"
+                },
+                {
+                    "event": "Robo War : round l",
+                    "route": "/"
+                },
+                {
+                    "event": "Chase The Maze : round l",
+                    "route": "/"
+                },
+                {
+                    "event": "Line Follower : round l",
+                    "route": "/"
+                }
             ]
         },
         {
@@ -31,11 +43,26 @@
             "subhead": "Events Continue",
             "text": "",
             "list": [
-                "Code Fiesta",
-                "Innovative Idea Contest",
-                "Innovative Model",
-                "CATIA",
-                "Circuit Design"
+                {
+                    "event":"Code Fiesta",
+                    "route": "/"
+                },
+                {
+                    "event":"Innovative Idea Contest",
+                    "route": "/"
+                },
+                {
+                    "event":"Innovative Model",
+                    "route": "/"
+                },
+                {
+                    "event":"CATIA",
+                    "route": "/"
+                },
+                {
+                    "event":"Circuit Design",
+                    "route": "/"
+                }
             ]
         },
         {
@@ -49,8 +76,14 @@
             "subhead": "Events continue",
             "text": "Alongside other mentioned these following events will begins",
             "list": [
-                "FIFA",
-                "NFS Most Wanted"
+                {
+                    "event":"FIFA",
+                    "route": "/"
+                },
+                {
+                    "event":"NFS Most Wanted",
+                    "route": "/"
+                }
             ]
         }
     ]

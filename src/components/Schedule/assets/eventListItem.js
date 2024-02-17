@@ -11,7 +11,7 @@ const EventListDetails = ({ event }) => {
                         {event.list && event.list.map((item, index) => (
                             <li key={index} className={`${styles.itemlist} flex flex-row items-center gap-2 font-semibold lg:text-[18px] text-sm font-sans`}>
                                 <div className=' w-1 h-1 rounded-full overflow-hidden bg-white'></div>
-                                {item}
+                                {typeof item === 'string' ? item : <a href={item.route} className=' underline lg:no-underline hover:underline underline-offset-4 py-1 cursor-pointer'>{item.event}</a>}
                             </li>
                         ))}
                     </ul>
