@@ -1,87 +1,190 @@
 
 {
     "day": 2,
-    "date": "March 04th, 2024",
+    "date": "March 07, 2024",
     "events": [
         {
-            "time": "09:00 am",
-            "subhead": "Participant Registration",
-            "text": "From 09:00 am - 09:30 am, participant registration will continue at Amtala in MCKVIE College campus. Participants are requested to bring valid college id to register at the registration desk.",
+            "time": "09:00 AM - 10:00 AM IST",
+            "subhead": "Registration (Amtala)",
+            "text": "From 09:00 am - 10:00 am, participant registration will continue at Amtala in MCKVIE College campus. Participants are requested to bring valid college id to register at the registration desk.",
             "list": []
         },
         {
-            "time": "09:30 am",
-            "subhead": "Inauguration Program",
-            "text": "Inauguration program of PRAGATI 2024, the annual techfest of MCKVIE will begin at the Malay Manch.",
-            "list": []
-        },
-        {
-            "time": "10:00 am - 12:30 PM IST",
-            "subhead": "Kickoff Pragati 2024",
+            "time": "10:00 AM - 11:00 AM IST",
+            "subhead": "Event continues of Pragati2024 ",
             "text": "",
-            "list": [
+            "list": [   
                 {
-                    "event": "Robo FIFA : round l",
+                    "event": "INOVATIVE IDEA ",
                     "route": "/"
                 },
                 {
-                    "event": "Robo War : round l",
+                    "event": "CHASE THE MAZE (1st/ 2nd Round)",
                     "route": "/"
                 },
                 {
-                    "event": "Chase The Maze : round l",
+                    "event": "LINE FOLLOWER (1st/ 2nd Round)",
                     "route": "/"
                 },
                 {
-                    "event": "Line Follower : round l",
+                    "event": " TREASURE HUNT (ENIGMA)",
+                    "route": "/"
+                },
+                {
+                    "event": "CODE FIESTA",
                     "route": "/"
                 }
             ]
         },
         {
-            "time": "10:00 am - 12:30 PM IST",
-            "subhead": "Events Continue",
+            "time": "11:00 AM - 12:00 PM IST",
+            "subhead": "Event continues ",
             "text": "",
             "list": [
                 {
-                    "event":"Code Fiesta",
+                    "event": "INOVATIVE IDEA ",
                     "route": "/"
                 },
                 {
-                    "event":"Innovative Idea Contest",
+                    "event": "CHASE THE MAZE (1st/ 2nd Round)",
                     "route": "/"
                 },
                 {
-                    "event":"Innovative Model",
+                    "event": "LINE FOLLOWER (1st/ 2nd Round)",
                     "route": "/"
                 },
                 {
-                    "event":"CATIA",
+                    "event": " TREASURE HUNT (ENIGMA)",
                     "route": "/"
                 },
                 {
-                    "event":"Circuit Design",
+                    "event": "CODE FIESTA",
                     "route": "/"
                 }
             ]
         },
         {
-            "time": "13:00 Pm - 14:00 PM IST ",
+            "time": "12:00 PM - 01:00 PM IST",
+            "subhead": "Event continues ",
+            "text": "",
+            "list": [
+                {
+                    "event": "INOVATIVE IDEA ",
+                    "route": "/"
+                },
+                {
+                    "event": "CHASE THE MAZE (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "LINE FOLLOWER (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " TREASURE HUNT (ENIGMA)",
+                    "route": "/"
+                },
+                {
+                    "event": "CODE FIESTA",
+                    "route": "/"
+                }
+            ]
+        },
+        {
+            "time": "01:00 PM - 02:00 PM IST ",
             "subhead": " Break Time",
             "text": "",
             "list": []
         },
         {
-            "time": "14:00 am - 16:30 PM IST ",
-            "subhead": "Events continue",
-            "text": "Alongside other mentioned these following events will begins",
+            "time": "02:00 AM - 03:00 PM IST ",
+            "subhead": "Event continues",
+            "text": "",
             "list": [
                 {
-                    "event":"FIFA",
+                    "event": "INOVATIVE IDEA ",
                     "route": "/"
                 },
                 {
-                    "event":"NFS Most Wanted",
+                    "event": "CHASE THE MAZE (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "LINE FOLLOWER (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " TREASURE HUNT (ENIGMA)",
+                    "route": "/"
+                },
+                {
+                    "event": "CODE FIESTA",
+                    "route": "/"
+                },
+                {
+                    "event": "FIFA",
+                    "route": "/"
+                }
+            ]
+        },
+        {
+            "time": "03:00 PM - 04:00 PM IST ",
+            "subhead": "Event continues",
+            "text": "",
+            "list": [
+                {
+                    "event": "INOVATIVE IDEA ",
+                    "route": "/"
+                },
+                {
+                    "event": "CHASE THE MAZE (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "LINE FOLLOWER (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " TREASURE HUNT (ENIGMA)",
+                    "route": "/"
+                },
+                {
+                    "event": "CODE FIESTA",
+                    "route": "/"
+                },
+                {
+                    "event": "FIFA",
+                    "route": "/"
+                }
+            ]
+        },
+        {
+            "time": "04:00 AM - 05:00 PM IST ",
+            "subhead": "Event continues",
+            "text": "",
+            "list": [
+                {
+                    "event": "INOVATIVE IDEA ",
+                    "route": "/"
+                },
+                {
+                    "event": "CHASE THE MAZE (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "LINE FOLLOWER (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " TREASURE HUNT (ENIGMA)",
+                    "route": "/"
+                },
+                {
+                    "event": "CODE FIESTA",
+                    "route": "/"
+                },
+                {
+                    "event": "FIFA",
                     "route": "/"
                 }
             ]
