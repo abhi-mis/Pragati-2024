@@ -23,7 +23,7 @@ const EventList = ({ day }) => {
     
     return DayData.events && DayData.events.length > 0 && (
         <div className={`${styles.timeline_container}`}>
-            <h1 className='lg:px-12 lg:pt-12 px-12 pb-4 font-bold lg:text-[36px] text-2xl leading-10'>{DayData.date}</h1>
+            <h2 className='lg:px-12 lg:pt-12 px-12 pb-4 font-bold lg:text-[36px] text-2xl leading-10'>{DayData.date}</h2>
             {DayData.events.map((event, index) => (
                 <EventListDetails key={index} event={event} date={DayData.date} />
             ))}
