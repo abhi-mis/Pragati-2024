@@ -12,9 +12,7 @@ const Competitions = lazy(() =>
 );
 
 const Team = lazy(() => import("./components/OurTeam/Team/Team"));
-const Celebrating25 = lazy(() =>
-  import("./components/Celebrating25/Celebrating 25")
-);
+
 
 console.log(process.env.REACT_APP_API_URL);
 const serverSystemUrl = "";
@@ -50,7 +48,6 @@ function App() {
               }
             />
             <Route path="aboutus" element={<Aboutus />} />
-            <Route path="celebrating25" element={<Celebrating25 />} />
             <Route path="schedule" element={<SchedulePage />} />
             <Route path="ourteam" element={<Team />} />
             <Route
