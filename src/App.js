@@ -3,13 +3,18 @@ import React, { lazy, Suspense, useEffect, useState } from "react";
 import Home from "./components/HomePage/Home/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Loader from "./components/Loader/Loader";
+import Modal from "./components/Button/Modal";
 import SchedulePage from "./components/Schedule/assets/page";
 const Aboutus = lazy(() => import("./components/About/About"));
 const Sidebar = lazy(() => import("./components/Sidebar/Sidebar"));
 const Competitions = lazy(() =>
   import("./components/Competitions/Competitions")
 );
+
 const Team = lazy(() => import("./components/OurTeam/Team/Team"));
+const Celebrating25 = lazy(() =>
+  import("./components/Celebrating25/Celebrating 25")
+);
 
 console.log(process.env.REACT_APP_API_URL);
 const serverSystemUrl = "";
@@ -31,8 +36,12 @@ function App() {
     <div className="App">
       <Router>
         <Suspense fallback={<p>Loading...</p>}>
-          <Sidebar auth={auth} setAuth={setAuth} serverSystemUrl={serverSystemUrl} />
-
+          <Sidebar
+            auth={auth}
+            setAuth={setAuth}
+            serverSystemUrl={serverSystemUrl}
+          />
+          <Modal />
           <Routes>
             <Route
               path="/"
@@ -41,6 +50,7 @@ function App() {
               }
             />
             <Route path="aboutus" element={<Aboutus />} />
+            <Route path="celebrating25" element={<Celebrating25 />} />
             <Route path="schedule" element={<SchedulePage />} />
             <Route path="ourteam" element={<Team />} />
             <Route
