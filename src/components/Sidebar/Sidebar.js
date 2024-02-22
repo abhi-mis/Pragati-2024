@@ -65,6 +65,15 @@ export default function Sidebar() {
               <span className="nav-text">About Us</span>
             </a>
           </li>
+          {/* <li className="has-subnav">
+            <a className="anchor" href="/celebrating25">
+              <div className="fa fa-2x">
+                <BiBookAlt size={25} />
+              </div>
+              <span className="nav-text">Celebrating 25</span>
+            </a>
+          </li> */}
+
           <li className="has-subnav">
             <a className="anchor" href="/competitions">
               <div className="fa fa-2x">
