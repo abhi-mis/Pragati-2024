@@ -14,7 +14,7 @@ const Modal = () => {
         >
           <div className=" absolute animate-ping inline-flex rounded-full bg-[#FFC729] opacity-75 h-2 w-2 overflow-hidden right-0 top-0"></div>
           <div className="flex gap-1">
-            <span className="text-white">NOTICES</span>
+            <span className="text-white"></span>
             <FiAlertCircle size={24} className="text-white" />
           </div>
         </button>
@@ -32,7 +32,7 @@ const Modal = () => {
               <div className="flex items-start justify-between">
                 <div className="text-left">
                   <h3 className="text-lg leading-6 font-medium text-gray-900">
-                    NOTICE
+                    NOTICES
                   </h3>
                   <div className="mt-1">
                     <p className="text-sm text-gray-500">
