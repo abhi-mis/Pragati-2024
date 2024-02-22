@@ -1,87 +1,196 @@
 
 {
     "day": 1,
-    "date": "March 03rd, 2024",
+    "date": "March 06, 2024",
     "events": [
         {
-            "time": "09:00 am",
-            "subhead": "Participant Registration",
+            "time": "09:00 AM - 09:30 AM IST",
+            "subhead": "Registration (Amtala)",
             "text": "From 09:00 am - 09:30 am, participant registration will continue at Amtala in MCKVIE College campus. Participants are requested to bring valid college id to register at the registration desk.",
             "list": []
         },
         {
-            "time": "09:30 am",
-            "subhead": "Inauguration Program",
-            "text": "Inauguration program of PRAGATI 2024, the annual techfest of MCKVIE will begin at the Malay Manch.",
+            "time": "09:30 AM - 10:00 AM IST",
+            "subhead": "Inauguration Program (Seminar Hall, Room: B312)",
+            "text": "Inauguration program of PRAGATI 2024, the annual techfest of MCKVIE will begin at the Seminar Hall (Room: B312)",
             "list": []
         },
         {
-            "time": "10:00 am - 12:30 PM IST",
+            "time": "10:00 AM - 11:00 AM IST",
             "subhead": "Kickoff Pragati 2024",
             "text": "",
             "list": [
                 {
-                    "event": "Robo FIFA : round l",
+                    "event": "INOVATIVE MODEL",
                     "route": "/"
                 },
                 {
-                    "event": "Robo War : round l",
+                    "event": "MATH MANIA",
                     "route": "/"
                 },
                 {
-                    "event": "Chase The Maze : round l",
+                    "event": "CATIA",
                     "route": "/"
                 },
                 {
-                    "event": "Line Follower : round l",
+                    "event": "CIRCUIT DESIGN",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO FIFA (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO WAR (1st/ 2nd Round)",
                     "route": "/"
                 }
             ]
         },
         {
-            "time": "10:00 am - 12:30 PM IST",
-            "subhead": "Events Continue",
+            "time": "11:00 AM - 12:00 PM IST",
+            "subhead": "Event continues",
             "text": "",
             "list": [
                 {
-                    "event":"Code Fiesta",
+                    "event": "INOVATIVE MODEL",
                     "route": "/"
                 },
                 {
-                    "event":"Innovative Idea Contest",
+                    "event": "MATH MANIA",
                     "route": "/"
                 },
                 {
-                    "event":"Innovative Model",
+                    "event": "CATIA",
                     "route": "/"
                 },
                 {
-                    "event":"CATIA",
+                    "event": "CIRCUIT DESIGN",
                     "route": "/"
                 },
                 {
-                    "event":"Circuit Design",
+                    "event": "ROBO FIFA (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO WAR (1st/ 2nd Round)",
                     "route": "/"
                 }
             ]
         },
         {
-            "time": "13:00 Pm - 14:00 PM IST ",
+            "time": "12:00 PM - 01:00 PM IST",
+            "subhead": "Event continues",
+            "text": "",
+            "list": [
+                {
+                    "event": "INOVATIVE MODEL",
+                    "route": "/"
+                },
+                {
+                    "event": "MATH MANIA",
+                    "route": "/"
+                },
+                {
+                    "event": "CATIA",
+                    "route": "/"
+                },
+                {
+                    "event": "CIRCUIT DESIGN",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO FIFA (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO WAR (1st/ 2nd Round)",
+                    "route": "/"
+                }
+            ]
+        },
+        {
+            "time": "01:00 PM - 02:00 PM IST ",
             "subhead": " Break Time",
             "text": "",
             "list": []
         },
         {
-            "time": "14:00 am - 16:30 PM IST ",
-            "subhead": "Events continue",
-            "text": "Alongside other mentioned these following events will begins",
+            "time": "02:00 PM - 03:00 PM IST ",
+            "subhead": "Event continues",
+            "text": "",
             "list": [
                 {
-                    "event":"FIFA",
+                    "event": "INOVATIVE MODEL",
                     "route": "/"
                 },
                 {
-                    "event":"NFS Most Wanted",
+                    "event": "MATH MANIA",
+                    "route": "/"
+                },
+                {
+                    "event": "NFS MOST WANTED",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO FIFA (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO WAR (1st/ 2nd Round)",
+                    "route": "/"
+                }
+            ]
+        },
+        {
+            "time": "03:00 PM - 04:00 PM IST ",
+            "subhead": "Event continues",
+            "text": "",
+            "list": [
+                {
+                    "event": "INOVATIVE MODEL",
+                    "route": "/"
+                },
+                {
+                    "event": "MATH MANIA",
+                    "route": "/"
+                },
+                {
+                    "event": "NFS MOST WANTED",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO FIFA (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO WAR (1st/ 2nd Round)",
+                    "route": "/"
+                }
+            ]
+        },
+        {
+            "time": "04:00 PM - 05:00 PM IST ",
+            "subhead": "Event continues",
+            "text": "",
+            "list": [
+                {
+                    "event": "INOVATIVE MODEL",
+                    "route": "/"
+                },
+                {
+                    "event": "MATH MANIA",
+                    "route": "/"
+                },
+                {
+                    "event": "NFS MOST WANTED",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO FIFA (1st/ 2nd Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO WAR (1st/ 2nd Round)",
                     "route": "/"
                 }
             ]

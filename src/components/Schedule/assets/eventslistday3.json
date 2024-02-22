@@ -1,90 +1,167 @@
 
 {
     "day": 3,
-    "date": "March 05th, 2024",
+    "date": "March 08, 2024",
     "events": [
         {
-            "time": "09:00 am",
-            "subhead": "Participant Registration",
-            "text": "From 09:00 am - 09:30 am, participant registration will continue at Amtala in MCKVIE College campus. Participants are requested to bring valid college id to register at the registration desk.",
+            "time": "09:00 AM - 10:00 AM IST",
+            "subhead": "Registration (Amtala)",
+            "text": "From 09:00 am - 10:00 am, participant registration will continue at Amtala in MCKVIE College campus. Participants are requested to bring valid college id to register at the registration desk.",
             "list": []
         },
         {
-            "time": "09:30 am",
-            "subhead": "Inauguration Program",
-            "text": "Inauguration program of PRAGATI 2024, the annual techfest of MCKVIE will begin at the Malay Manch.",
-            "list": []
-        },
-        {
-            "time": "10:00 am - 12:30 PM IST",
-            "subhead": "Kickoff Pragati 2024",
+            "time": "10:00 AM - 11:00 AM IST",
+            "subhead": "Event continues of Pragati2024 ",
             "text": "",
-            "list": [
+            "list": [   
                 {
-                    "event": "Robo FIFA : round l",
+                    "event": "TECHNICAL POSTER",
                     "route": "/"
                 },
                 {
-                    "event": "Robo War : round l",
+                    "event": "QUIZOMANIA",
                     "route": "/"
                 },
                 {
-                    "event": "Chase The Maze : round l",
+                    "event": "ML MANIA",
                     "route": "/"
                 },
                 {
-                    "event": "Line Follower : round l",
+                    "event": " ROBO FIFA (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO WAR (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " CHASE THE MAZE (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " LINE FOLLOWER (Final Round)",
                     "route": "/"
                 }
             ]
         },
         {
-            "time": "10:00 am - 12:30 PM IST",
-            "subhead": "Events Continue",
+            "time": "11:00 AM - 12:00 PM IST",
+            "subhead": "Event continues ",
             "text": "",
-            "list": [
+            "list": [   
                 {
-                    "event":"Code Fiesta",
+                    "event": "TECHNICAL POSTER",
                     "route": "/"
                 },
                 {
-                    "event":"Innovative Idea Contest",
+                    "event": "QUIZOMANIA",
                     "route": "/"
                 },
                 {
-                    "event":"Innovative Model",
+                    "event": "ML MANIA",
                     "route": "/"
                 },
                 {
-                    "event":"CATIA",
+                    "event": " ROBO FIFA (Final Round)",
                     "route": "/"
                 },
                 {
-                    "event":"Circuit Design",
+                    "event": "ROBO WAR (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " CHASE THE MAZE (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " LINE FOLLOWER (Final Round)",
                     "route": "/"
                 }
             ]
         },
         {
-            "time": "13:00 Pm - 14:00 PM IST ",
+            "time": "12:00 PM - 01:00 PM IST",
+            "subhead": "Event continues ",
+            "text": "",
+            "list": [   
+                {
+                    "event": "TECHNICAL POSTER",
+                    "route": "/"
+                },
+                {
+                    "event": "QUIZOMANIA",
+                    "route": "/"
+                },
+                {
+                    "event": "ML MANIA",
+                    "route": "/"
+                },
+                {
+                    "event": " ROBO FIFA (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO WAR (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " CHASE THE MAZE (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " LINE FOLLOWER (Final Round)",
+                    "route": "/"
+                }
+            ]
+        },
+        {
+            "time": "01:00 PM - 02:00 PM IST ",
             "subhead": " Break Time",
             "text": "",
             "list": []
         },
         {
-            "time": "14:00 am - 16:30 PM IST ",
-            "subhead": "Events continue",
-            "text": "Alongside other mentioned these following events will begins",
-            "list": [
+            "time": "02:00 PM - 03:00 PM IST ",
+            "subhead": "Event continues",
+            "text": "",
+            "list": [   
                 {
-                    "event":"FIFA",
+                    "event": "QUIZOMANIA",
                     "route": "/"
                 },
                 {
-                    "event":"NFS Most Wanted",
+                    "event": "ML MANIA",
+                    "route": "/"
+                },
+                {
+                    "event": " ROBO FIFA (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": "ROBO WAR (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " CHASE THE MAZE (Final Round)",
+                    "route": "/"
+                },
+                {
+                    "event": " LINE FOLLOWER (Final Round)",
                     "route": "/"
                 }
             ]
+        },
+        {
+            "time": "03:00 PM - 04:00 PM IST ",
+            "subhead": "PRIZE DISTRIBUTION (SIT HALL)",
+            "text": "",
+            "list": []
+        },
+        {
+            "time": "04:00 PM - 05:00 PM IST ",
+            "subhead": "PRIZE DISTRIBUTION (SIT HALL)",
+            "text": "",
+            "list": []
         }
     ]
     
