@@ -10,9 +10,8 @@ function Card(props) {
   const navigate = useNavigate();
 
   // Throttle the click events
-  const throttledHandleRegister = _.throttle((e, name, key) => {
-    const path = (props.auth === "false") ? "/login" : `/${name}`;
-    navigate(path);
+  const throttledHandleRegister = _.throttle((e, formLink) => {
+    window.open(formLink, '_blank');
   }, 1000);
 
   const throttledHandleClick = _.throttle((e, name, key) => {
@@ -49,13 +48,13 @@ function Card(props) {
         </div>
         <div className={styles.btn}>
           
-            <button
+        <button
   className={styles.regbtn}
-  onClick={(e) => throttledHandleRegister(e, props.name.toLowerCase().replaceAll(" ", "_"), props.id)}
+  onClick={(e) => throttledHandleRegister(e, props.formLink)}
   onMouseEnter={() => {props.btnEnter();}}
   onMouseLeave={() => {props.textLeave();}}
 >
-  <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">Register</a>
+  Register
 </button>
 
            
