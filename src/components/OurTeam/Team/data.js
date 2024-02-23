@@ -8,7 +8,7 @@ export const teams = [
         image: "./images/teams/Abhishek Mishra.jpg",
         designation: "Developer",
         phone: "CSE-4th Year",
-        mail: "b.s.abhi152@gmail.com",
+        mail: "mailto:b.s.abhi152@gmail.com",
         instagram: "https://wa.me/+918887850034",
         linkedin: "/",
       },
@@ -387,11 +387,6 @@ export const teams = [
         instagram: "https://wa.me/+917890743642",
         linkedin: "/",
       },
-
-
-
-      
-      
     ],
     members: [],
   },
