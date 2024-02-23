@@ -259,7 +259,7 @@ export const teams = [
       },
       {
         name: "Aritra Dalui",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/Aritra Dalui.JPG",
         designation: "Organizer",
         phone: "EE-4th Year",
         mail: "mailto:aritradalui2002@gmail.com",
@@ -269,7 +269,7 @@ export const teams = [
       },
       {
         name: "Kabita Sahu",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/Kabita Sahu.jpg",
         designation: "Organizer",
         phone: "CSE-4th Year",
         mail: "mailto:kabitasahu434@gmail.com",
@@ -279,7 +279,7 @@ export const teams = [
       },
       {
         name: "Navanil Ghosh",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/Navanil Ghosh.jpg",
         designation: "Organizer",
         phone: "CSE-DS-4th Year",
         mail: "mailto:navanil2001@gmail.com",
@@ -289,7 +289,7 @@ export const teams = [
       },
       {
         name: "Kingshuk Sarkar ",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/cartoon.webp",
         designation: "Organizer",
         phone: "ME-4th Year",
         mail: "/",
@@ -299,7 +299,7 @@ export const teams = [
       },
       {
         name: "Lokesh Nahar",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/cartoon.webp",
         designation: "Organizer",
         phone: "CSE-4th Year",
         mail: "/",
@@ -309,7 +309,7 @@ export const teams = [
       },
       {
         name: "Bithika Das ",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/cartoon.webp",
         designation: "Organizer",
         phone: "AUE-4th Year",
         mail: "/",
@@ -319,7 +319,7 @@ export const teams = [
       },
       {
         name: "Binit Kumar Sha",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/cartoon.webp",
         designation: "Organizer",
         phone: "AUE-4th Year",
         mail: "/",
@@ -329,7 +329,7 @@ export const teams = [
       },
       {
         name: "Jagaran Biswas",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/cartoon.webp",
         designation: "Organizer",
         phone: "AUE-4th Year",
         mail: "/",
@@ -339,7 +339,7 @@ export const teams = [
       },
       {
         name: "Abhijit Mukherjee",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/cartoon.webp",
         designation: "Organizer",
         phone: "ME-4th Year",
         mail: "/",
@@ -349,7 +349,7 @@ export const teams = [
       },
       {
         name: "Suman Das",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/cartoon.webp",
         designation: "Organizer",
         phone: "ME-4th Year",
         mail: "/",
@@ -359,7 +359,7 @@ export const teams = [
       },
       {
         name: "Subhojit Majumdar ",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/cartoon.webp",
         designation: "Organizer",
         phone: "ME-4th Year",
         mail: "/",
@@ -369,7 +369,7 @@ export const teams = [
       },
       {
         name: "Anirban Ghosh",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/cartoon.webp",
         designation: "Organizer",
         phone: "CSE-4th Year",
         mail: "/",
@@ -379,7 +379,7 @@ export const teams = [
       },
       {
         name: "Arnab Bardhan",
-        image: "./images/teams/Sneha Singh.jpg",
+        image: "./images/teams/cartoon.webp",
         designation: "Organizer",
         phone: "ME-4th Year",
         mail: "/",
