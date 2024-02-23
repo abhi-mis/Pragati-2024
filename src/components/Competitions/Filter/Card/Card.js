@@ -48,14 +48,7 @@ function Card(props) {
         </div>
         <div className={styles.btn}>
           
-        <button
-  className={styles.regbtn}
-  onClick={(e) => throttledHandleRegister(e, props.formLink)}
-  onMouseEnter={() => {props.btnEnter();}}
-  onMouseLeave={() => {props.textLeave();}}
->
-  Register
-</button>
+
 
            
           <button

@@ -130,7 +130,7 @@ function Competitions({ auth, setAuth }) {
       window.removeEventListener("mousemove", throttledMouseMove);
     };
   }, [tl]); // Add tl to the dependency array
-
+  let item1 = useRef(null);
   const isDesktop = window.screen.width > 600;
 
   return (
@@ -157,36 +157,11 @@ function Competitions({ auth, setAuth }) {
                 }}
                 className={styles.base2Div}
               >
-                <div
-                  onMouseEnter={textEnter}
-                  onMouseLeave={textLeave}
-                  className={`${styles.title}`}
-                >
-                  <motion.div
-                    className={`${styles.leftTitle}`}
-                    variants={variants}
-                    initial="normal"
-                    whileInView="later"
-                    transition={{
-                      duration: "1",
-                    }}
-                    viewport={{ once: false, amount: 0.6, delay: "0.2" }}
-                  >
-                    COMPE
-                  </motion.div>
-                  <motion.div
-                    className={`${styles.RightTitle}`}
-                    variants={variants}
-                    initial="normal1"
-                    whileInView="later"
-                    transition={{
-                      duration: "1",
-                    }}
-                    viewport={{ once: false, amount: 0.6, duration: "0.2" }}
-                  >
-                    TITIONS
-                  </motion.div>
-                </div>
+                <h1
+              ref={(el) => {
+                item1 = el;
+              }} onMouseEnter={textEnter} onMouseLeave={textLeave}
+              className=' text-[4vw] md:text-[4vw] lg:text-[3.2vw] tracking-wider font-bold headfont lg:pt-12 lg:pb-24 md:pt-8 pt-8 pb-28 '>Schedule of Events </h1>
               </div>
             </div>
           </div>

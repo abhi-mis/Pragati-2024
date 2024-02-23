@@ -63,7 +63,7 @@
   width:92%;
   /* cursor:auto; */
   min-height:90vh;
-  margin-top: 7vh; 
+  margin-top: -1vh; 
   z-index: 3;
 }
 
@@ -228,4 +228,40 @@
       height: 6vh;
   }
   
+}
+@media (max-width: 768px) {
+  .maindiv {
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
+
+  .title {
+    font-size: 8vw;
+    margin-top: -160px;
+  }
+
+  .diamond {
+    display: none;
+  }
+
+  .base {
+    margin-top: 50px;
+  }
+
+  .outer {
+    margin-top: -7vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    top: 58vh;
+    font-size: 6vw;
+  }
+
+  .diamond {
+    top: 220px;
+  }
 }
