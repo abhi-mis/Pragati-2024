@@ -20,7 +20,7 @@ export const teams = [
         phone:"CSE-3rd Year",
         mail: "mailto:shrimalinishka@gmail.com",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://api.whatsapp.com/qr/7266IEWJRROZI1?autoload=1&app_absent=0",
         linkedin: "https://www.linkedin.com/in/nishka-shrimali-83419a225/",
       },
       {
