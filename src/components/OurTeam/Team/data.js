@@ -64,7 +64,7 @@ export const teams = [
         phone: "CSE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918887850034",
         linkedin: "/",
       },
       {
@@ -74,7 +74,7 @@ export const teams = [
         phone: "CSE-DS-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+917362970829",
         linkedin: "/",
       },
       {
@@ -84,7 +84,7 @@ export const teams = [
         phone: "IT-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+919432902403",
         linkedin: "/",
       },
       {
@@ -94,7 +94,7 @@ export const teams = [
         phone: "AUE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+917059633144",
         linkedin: "/",
       },
       {
@@ -104,7 +104,7 @@ export const teams = [
         phone: "CSE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+916200254450",
         linkedin: "/",
       },
       {
@@ -114,7 +114,7 @@ export const teams = [
         phone: "CSE-DS-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+919007923300",
         linkedin: "/",
       },
       {
@@ -124,7 +124,7 @@ export const teams = [
         phone: "IT-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -134,7 +134,7 @@ export const teams = [
         phone: "CSE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918777721356",
         linkedin: "/",
       },
       {
@@ -144,7 +144,7 @@ export const teams = [
         phone: "IT-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+91964192469",
         linkedin: "/",
       },
       {
@@ -154,7 +154,7 @@ export const teams = [
         phone: "IT-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+916291413882",
         linkedin: "/",
       },
       {
@@ -164,7 +164,7 @@ export const teams = [
         phone: "CSE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918981534701",
         linkedin: "/",
       },
       {
@@ -174,7 +174,7 @@ export const teams = [
         phone: "ECE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+916291326445",
         linkedin: "/",
       },
       {
@@ -184,7 +184,7 @@ export const teams = [
         phone: "IT-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+91874702562",
         linkedin: "/",
       },
       {
@@ -194,7 +194,7 @@ export const teams = [
         phone: "ECE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+919831150237",
         linkedin: "/",
       },
       {
@@ -204,7 +204,7 @@ export const teams = [
         phone: "CSE-DS-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+917439125500",
         linkedin: "/",
       },
       {
@@ -214,7 +214,7 @@ export const teams = [
         phone: "EE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+919163980262",
         linkedin: "/",
       },
       {
@@ -224,7 +224,7 @@ export const teams = [
         phone: "CSE-DS-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+917362970829",
         linkedin: "/",
       },
       {
@@ -234,7 +234,7 @@ export const teams = [
         phone: "EE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918647862863",
         linkedin: "/",
       },
       {
@@ -244,7 +244,7 @@ export const teams = [
         phone: "EE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+919903143255",
         linkedin: "/",
       },
       {
@@ -254,7 +254,7 @@ export const teams = [
         phone: "CSE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918777281405",
         linkedin: "/",
       },
       {
@@ -264,7 +264,7 @@ export const teams = [
         phone: "EE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+917439135764",
         linkedin: "/",
       },
       {
@@ -274,7 +274,7 @@ export const teams = [
         phone: "CSE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918910116881",
         linkedin: "/",
       },
       {
@@ -284,7 +284,7 @@ export const teams = [
         phone: "CSE-DS-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -294,7 +294,7 @@ export const teams = [
         phone: "ME-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -304,7 +304,7 @@ export const teams = [
         phone: "CSE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -314,7 +314,7 @@ export const teams = [
         phone: "AUE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -324,7 +324,7 @@ export const teams = [
         phone: "AUE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -334,7 +334,7 @@ export const teams = [
         phone: "AUE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -344,7 +344,7 @@ export const teams = [
         phone: "ME-4th Year",
         mail: "/",
  
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -354,7 +354,7 @@ export const teams = [
         phone: "ME-4th Year",
         mail: "/",
    
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -364,7 +364,7 @@ export const teams = [
         phone: "ME-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -374,7 +374,7 @@ export const teams = [
         phone: "CSE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
       {
@@ -384,7 +384,7 @@ export const teams = [
         phone: "ME-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
 
