@@ -5,7 +5,7 @@ import styles from './ContactCard.module.css';
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import {SiGmail } from "react-icons/si";
 import {GrInstagram } from "react-icons/gr";
 
@@ -41,7 +41,7 @@ function ContactCard(props) {
 
         {/* Add the links for Facebook, Instagram, and LinkedIn with target="_blank" */}
         <a href={props.details.instagram} className={styles.icon} target="_blank" rel="noopener noreferrer">
-          <GrInstagram className={styles.iconTag} />
+          <FaWhatsapp className={styles.iconTag} />
         </a>
         <a href={props.details.linkedin} className={styles.icon} target="_blank" rel="noopener noreferrer">
           <FaLinkedinIn className={styles.iconTag} />
