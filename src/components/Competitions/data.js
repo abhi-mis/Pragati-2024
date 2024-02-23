@@ -40,7 +40,7 @@ export const events = [
     "imgName": "./images/events/astronomy/astrohunt/image.jpg",
     "poster": "/images/events/astronomy/astrohunt/poster.jpg",
     "about": "The guidelines ask for articles in specific topics and a specific format for new ideas. Presentations should be in PowerPoint and include the problem, solution, and why the solution is unique and possible.",
-    "timeline": "09:00 AM to 13:00 PM on January 28th, 2023",
+    "timeline": "09:00 AM to 13:00 PM on January 28th, 2024",
     "contacts":
       [
         {
@@ -71,7 +71,7 @@ export const events = [
     "imgName": "./images/events/astronomy/astromemia/image.jpg",
     "poster": "/images/events/astronomy/astromemia/poster.jpg",
     "about": "The article submission guidelines specify domains like healthcare, agriculture, robotics, renewable energy, IoT, mobile and web app development, smart education, environment sustainability, future mobility, sensors, VLSI, and more. Submissions must follow a structured format including title, domain, problem definition, theoretical background, implementation, solution uniqueness, and a presentation with specific content",
-    "timeline": "6mar",
+    "timeline": "10:00 AM to 05:00 PM on March 6th, 2024",
     "contacts":
       [
         {
@@ -102,7 +102,7 @@ export const events = [
     "imgName": "./images/events/astronomy/brahmaand/image.jpg",
     "poster": "/images/events/astronomy/brahmaand/poster.jpg",
     "about": "Brahmaand is an event where you present your frame of reference towards the problem statement and come with effective ways or solutions with the help of proven resources.",
-    "timeline": "6TH MARCH",
+    "timeline": "10:00 AM to 01:00 PM March 8th, 2024",
 
     "contacts":
       [
@@ -130,7 +130,7 @@ export const events = [
     "imgName": "./images/events/astronomy/dhoomketu/image.jpg",
     "poster": "/images/events/astronomy/dhoomketu/poster.jpg",
     "about": "Code Fiesta: Where coding duos battle in a fast-paced quiz and intense problem-solving showdown. Master MCQs, conquer coding challenges in C, C++, or Java, and outpace competitors to emerge victorious. ",
-    "timeline": "",
+    "timeline": "10:00 AM to 05:00 PM on March 7th, 2024",
     "contacts":
       [
         {
@@ -170,7 +170,7 @@ export const events = [
     "imgName": "./images/events/astronomy/starpix/image.jpg",
     "poster": "/images/events/astronomy/starpix/poster.jpg",
     "about": "Gear up for a drafting duel in 'Design with AutoCAD/Catia'! This challenge invites pairs of aspiring engineers to unleash their design dexterity and architectural acumen. Armed only with traditional drafting tools—leave your cell phones behind—you'll race against time to sketch the future.",
-    "timeline": "",
+    "timeline": "10:00 AM to 01:00 PM on March 6th, 2024",
     "contacts":
       [
         {
@@ -195,7 +195,7 @@ export const events = [
     "imgName": "",
     "poster": "",
     "about": "Whether solo or in teams of up to three, you're tasked with engineering innovative circuits using provided analog and digital components. With a strict two-hour timeline, precision, and ingenuity are key. Early submissions earn time bonuses, useful for tiebreaks.",
-    "timeline": "",
+    "timeline": "10:00 AM to 01:00 PM on March 6th, 2024",
     "contacts":
       [
         {
@@ -225,7 +225,7 @@ export const events = [
     "imgName": "",
     "poster": "",
     "about": "With a blend of quizzes and hands-on coding, teams of two will navigate the complexities of machine learning, from foundational theories to applied projects. Test your skills in Python, impress the judges with innovative solutions, and vie for the top spot in this machine learning showdown.",
-    "timeline": "",
+    "timeline": "11:00 AM to 03:00 PM on March 8th, 2024",
     "contacts":
       [
         {
@@ -253,7 +253,7 @@ export const events = [
     "imgName": "",
     "poster": "",
     "about": "Dive into a world of puzzles, codes, and programming across four intense rounds. Unravel word mysteries, decode jigsaws, master 'C' programming, and navigate lab riddles. Only the sharpest minds will prevail. Are you ready to unlock the secrets and claim victory?",
-    "timeline": "19 December 2022 - Online round concluded 29 January 2023 - Onsite Round",
+    "timeline": "10:00 AM to 05:00 PM on March 7th, 2024",
     "contacts":
       [
         {
@@ -286,7 +286,7 @@ export const events = [
     "imgName": "",
     "poster": "",
     "about": "Engage in challenging math problems across two rounds, aiming for a total of 100 marks. Only top performers advance. Teamwork essential.",
-    "timeline": "",
+    "timeline": "10:00 AM to 05:00 PM on March 6th, 2024",
     "contacts":
       [
         {
@@ -313,7 +313,7 @@ export const events = [
     "imgName": "",
     "poster": "",
     "about": "Dive into the adrenaline-pumping world of NFS Most Wanted, where you outrun rivals and evade cops in heart-stopping street races. Claim the top spot on the blacklist in this ultimate pursuit of speed and freedom!",
-    "timeline": "",
+    "timeline": "02:00 PM to 05:00 PM on March 6th, 2024",
     "contacts": [
       {
         "name": "RAMJEE RAI",
@@ -343,7 +343,7 @@ export const events = [
     "imgName": "",
     "poster": "",
     "about": " International (No club or custom teams allowed)Player changes and strategy changes are limited to 3 times during the game. (The changes before the start of first and second half are not included in this count.",
-    "timeline": "",
+    "timeline": "02:00 PM to 05:00 PM on March 7th, 2024",
     "contacts": [
       {
         "name": "RAMJEE RAI",
@@ -373,7 +373,7 @@ export const events = [
     "imgName": "",
     "poster": "",
     "about": "Design a robot which plays soccer. The robot would compete against others in 1-1 matches. Arena Specifications: -Will be SURPRISE.",
-    "timeline": "",
+    "timeline": "10:00 AM to 05:00 PM on March 6th, 2024 to 10:00 AM to 03:00 PM on March 8th, 2024",
     "contacts": [
       {
         "name": "JAYANT JOSHI",
@@ -419,7 +419,7 @@ export const events = [
       "imgName": "",
       "poster": "",
       "about": "Build a robot whose task is to push the opposing robot out of the circular ring or flip it over. Different robots compete one-on-one against each other in a knock- out tournament.",
-      "timeline": "",
+      "timeline": "10:00 AM to 05:00 PM on March 6th, 2024 to 10:00 AM to 03:00 PM on March 8th, 2024",
       "contacts": [
         {
           "name": "JAYANT JOSHI",
@@ -465,7 +465,7 @@ export const events = [
       "imgName": "",
       "poster": "",
       "about": "To build a robot that is able to navigate out of the maze in the quickest time possible from the designated starting point to the ending point. ",
-      "timeline": "",
+      "timeline": "10:00 AM to 05:00 PM on March 7th, 2024 to 10:00 AM to 03:00 PM on March 8th, 2024",
       "contacts": [
         {
           "name": "JAYANT JOSHI",
@@ -512,7 +512,7 @@ export const events = [
       "imgName": "",
       "poster": "",
       "about": "To make a robot to follow a white line on a black background, without losing the line and navigating several 90 degree turns. The robot to complete the course in the 14 shortest period of time while accurately tracking the course line from start to end wins",
-      "timeline": "",
+      "timeline": "10:00 AM to 05:00 PM on March 7th, 2024 to 10:00 AM to 03:00 PM on March 8th, 2024",
       "contacts": [
         {
           "name": "JAYANT JOSHI",
