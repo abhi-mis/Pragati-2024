@@ -8,7 +8,7 @@ export const teams = [
         image: "./images/teams/Abhishek Mishra.jpg",
         designation: "Developer",
         phone: "CSE-4th Year",
-        mail: "b.s.abhi152@gmail.com",
+        mail: "mailto:b.s.abhi152@gmail.com",
         instagram: "https://wa.me/+918887850034",
         linkedin: "/",
       },
@@ -75,7 +75,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+917362970829",
-        linkedin: "/",
+        linkedin: "https://www.linkedin.com/in/manas-kumar-manna-116561228",
       },
       {
         name: "Srijit Sarkar",
@@ -95,7 +95,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+917059633144",
-        linkedin: "/",
+        linkedin: "https://in.linkedin.com/in/jayant-joshi-6b396523b",
       },
       {
         name: "Suchi Kumari",
@@ -105,7 +105,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+916200254450",
-        linkedin: "/",
+        linkedin: "https://www.linkedin.com/in/suchi-kumari-727741224/",
       },
       {
         name: "Sneha Singh",
@@ -115,7 +115,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+919007923300",
-        linkedin: "/",
+        linkedin: "https://www.linkedin.com/in/sneha-singh-ab2528215",
       },
       {
         name: "Tanisha Gupta",
@@ -125,7 +125,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+918420550887",
-        linkedin: "/",
+        linkedin: "https://www.linkedin.com/in/tanisha-gupta-a81158210",
       },
       {
         name: "Atreyee Kar",
@@ -135,7 +135,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+918777721356",
-        linkedin: "/",
+        linkedin: "https://www.linkedin.com/in/atreyee-kar-6535b5215",
       },
       {
         name: "Deblina Banerjee ",
@@ -145,7 +145,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+91964192469",
-        linkedin: "/",
+        linkedin: "https://www.linkedin.com/in/deblina-banerjee-231290206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         name: "Sayantan Paul",
@@ -155,7 +155,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+916291413882",
-        linkedin: "/",
+        linkedin: "https://www.linkedin.com/in/imsayantanpaul",
       },
       {
         name: "Priyodeep Mukherjee ",
@@ -165,7 +165,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+918981534701",
-        linkedin: "/",
+        linkedin: "https://www.linkedin.com/in/priyodeep-mukherjee-062783216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         name: "Swapnanil Saha",
@@ -175,7 +175,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+916291326445",
-        linkedin: "/",
+        linkedin: "www.linkedin.com/in/swapnanil-saha-1a5675246",
       },
       {
         name: "Anushka Kar",
@@ -205,7 +205,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+917439125500",
-        linkedin: "/",
+        linkedin: "https://www.linkedin.com/in/arka-pravo-dutta-359200215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       {
         name: "Archisman Mangal",
@@ -225,7 +225,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+917362970829",
-        linkedin: "/",
+        linkedin: "https://in.linkedin.com/in/suranjana-saha-1b2529215",
       },
       {
         name: "Rohan Saha",
@@ -235,7 +235,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+918647862863",
-        linkedin: "/",
+        linkedin: "www.linkedin.com/in/rohan-saha-6b9448223",
       },
       {
         name: "Swapnodeep Banerjee",
@@ -245,7 +245,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+919903143255",
-        linkedin: "/",
+        linkedin: "linkedin.com/in/swapnodeepbanerjee",
       },
       {
         name: "Ramjee Rai",
@@ -255,7 +255,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+918777281405",
-        linkedin: "/",
+        linkedin: "https://www.linkedin.com/in/ramjee-rai-a3a49a244",
       },
       {
         name: "Aritra Dalui",
@@ -265,7 +265,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+917439135764",
-        linkedin: "/",
+        linkedin: "linkedin.com/in/aritra-dalui",
       },
       {
         name: "Sukanto Roy",
@@ -285,7 +285,7 @@ export const teams = [
         mail: "/",
         facebook: "/",
         instagram: "https://wa.me/+919123792013",
-        linkedin: "/",
+        linkedin: "www.linkedin.com/in/navanil-ghosh-11ab43217",
       },
       {
         name: "Kingshuk Sarkar ",
@@ -387,11 +387,6 @@ export const teams = [
         instagram: "https://wa.me/+917890743642",
         linkedin: "/",
       },
-
-
-
-      
-      
     ],
     members: [],
   },
