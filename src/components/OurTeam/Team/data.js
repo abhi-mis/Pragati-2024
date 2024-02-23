@@ -10,7 +10,7 @@ export const teams = [
         phone: "CSE-4th Year",
         mail: "b.s.abhi152@gmail.com",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918887850034",
         linkedin: "/",
       },
       {
@@ -20,7 +20,7 @@ export const teams = [
         phone:"CSE-3rd Year",
         mail: "mailto:shrimalinishka@gmail.com",
         facebook: "/",
-        instagram: "https://api.whatsapp.com/qr/7266IEWJRROZI1?autoload=1&app_absent=0",
+        instagram: " https://wa.me/+916291764011",
         linkedin: "https://www.linkedin.com/in/nishka-shrimali-83419a225/",
       },
       {
@@ -30,7 +30,7 @@ export const teams = [
         phone: "CSE-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918777281405",
         linkedin: "/",
       },
       {
@@ -40,7 +40,7 @@ export const teams = [
         phone: "IT-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+916291413882",
         linkedin: "/",
       },
       {
@@ -50,7 +50,7 @@ export const teams = [
         phone: "IT-4th Year",
         mail: "/",
         facebook: "/",
-        instagram: "/",
+        instagram: "https://wa.me/+918420550887",
         linkedin: "/",
       },
     ],
