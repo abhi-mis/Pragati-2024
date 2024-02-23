@@ -7,6 +7,7 @@ import Modal from "./components/Button/Modal";
 import SchedulePage from "./components/Schedule/assets/page";
 const Aboutus = lazy(() => import("./components/About/About"));
 const Sidebar = lazy(() => import("./components/Sidebar/Sidebar"));
+const Explore = lazy(()=>import("./components/Explore/Explore"));
 const Competitions = lazy(() =>
   import("./components/Competitions/Competitions")
 );
@@ -50,6 +51,7 @@ function App() {
             <Route path="aboutus" element={<Aboutus />} />
             <Route path="schedule" element={<SchedulePage />} />
             <Route path="ourteam" element={<Team />} />
+            <Route path="/:name" element={<Explore auth={auth} setAuth={setAuth}/>}/>
             <Route
               path="competitions"
               element={<Competitions auth={auth} setAuth={setAuth} />}
