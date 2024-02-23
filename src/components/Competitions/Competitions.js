@@ -161,7 +161,7 @@ function Competitions({ auth, setAuth }) {
               ref={(el) => {
                 item1 = el;
               }} onMouseEnter={textEnter} onMouseLeave={textLeave}
-              className=' text-[4vw] md:text-[4vw] lg:text-[3.2vw] tracking-wider font-bold headfont lg:pt-12 lg:pb-24 md:pt-8 pt-8 pb-28 '>Schedule of Events </h1>
+              className=' text-[4vw] md:text-[4vw] lg:text-[3.2vw] tracking-wider font-bold headfont lg:pt-12 lg:pb-24 md:pt-8 pt-8 pb-28 '>Competitions</h1>
               </div>
             </div>
           </div>

@@ -27,7 +27,6 @@
   flex-direction: column;
   /* justify-content: center; */
   padding-right:  6vw;
-  overflow-y: scroll;
 
   /* background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(5px);
