@@ -9,7 +9,6 @@ export const teams = [
         designation: "Developer",
         phone: "CSE-4th Year",
         mail: "b.s.abhi152@gmail.com",
-        facebook: "/",
         instagram: "https://wa.me/+918887850034",
         linkedin: "/",
       },
@@ -39,7 +38,6 @@ export const teams = [
         designation: "Developer",
         phone: "IT-4th Year",
         mail: "/",
-        facebook: "/",
         instagram: "https://wa.me/+916291413882",
         linkedin: "/",
       },
@@ -345,7 +343,7 @@ export const teams = [
         designation: "Organizer",
         phone: "ME-4th Year",
         mail: "/",
-        facebook: "/",
+ 
         instagram: "/",
         linkedin: "/",
       },
@@ -355,7 +353,7 @@ export const teams = [
         designation: "Organizer",
         phone: "ME-4th Year",
         mail: "/",
-        facebook: "/",
+   
         instagram: "/",
         linkedin: "/",
       },
