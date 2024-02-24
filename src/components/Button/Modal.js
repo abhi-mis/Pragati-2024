@@ -48,7 +48,7 @@ const Modal = () => {
                 </span>
               </div>
               <div className="text-left my-2">
-                <p className="text-sm text-black">We will update you shortly</p>
+                <p className="text-sm text-black">- Payment will be done offline!</p>
               </div>
               <div className="flex items-center justify-end gap-2 mt-4">
                 {/* <button
