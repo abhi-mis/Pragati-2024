@@ -39,6 +39,7 @@ export const events = [
     "participation": "TEAM SIZE : 4-6",
     "imgName": require("./1.png"),
     "poster": require("./1.png"),
+    "structure": "MCKVIE STUDENTS : 100rs/Team & OUTSIDE Students : 200rs/Team. [Note: Payments will be collected offline, on campus.]",
     "about": "The guidelines ask for articles in specific topics and a specific format for new ideas. Presentations should be in PowerPoint and include the problem, solution, and why the solution is unique and possible.",
     "timeline": "09:00 AM to 13:00 PM on January 28th, 2024",
     "contacts":
@@ -70,6 +71,7 @@ export const events = [
     "participation": "TEAM SIZE : 1-4",
     "imgName": require("./2.png"),
     "poster": require("./2.png"),
+    "structure": "MCKVIE Students: 100rs/Team, Outside Students: 200rs/Team [Note: Payments will be collected offline, on campus.]",
     "about": "The article submission guidelines specify domains like healthcare, agriculture, robotics, renewable energy, IoT, mobile and web app development, smart education, environment sustainability, future mobility, sensors, VLSI, and more. Submissions must follow a structured format including title, domain, problem definition, theoretical background, implementation, solution uniqueness, and a presentation with specific content",
     "timeline": "10:00 AM to 05:00 PM on March 6th, 2024",
     "contacts":
@@ -101,6 +103,7 @@ export const events = [
     "participation": "TEAM SIZE : 1-3",
     "imgName": require("./3.png"),
     "poster": require("./3.png"),
+    "structure": "MCKVIE Students: 100rs/Team, Outside Students: 200rs/Team [Note: Payments will be collected offline, on campus.]",
     "about": "Brahmaand is an event where you present your frame of reference towards the problem statement and come with effective ways or solutions with the help of proven resources.",
     "timeline": "10:00 AM to 01:00 PM March 8th, 2024",
 
@@ -129,6 +132,7 @@ export const events = [
     "participation": "TEAM SIZE : 2",
     "imgName": require("./4.png"),
     "poster": require("./4.png"),
+    "structure": "MCKVIE Students: 50rs/Head, Outside Students: 100rs/Head [Note: Payments will be collected offline, on campus.]",
     "about": "Code Fiesta: Where coding duos battle in a fast-paced quiz and intense problem-solving showdown. Master MCQs, conquer coding challenges in C, C++, or Java, and outpace competitors to emerge victorious. ",
     "timeline": "10:00 AM to 05:00 PM on March 7th, 2024",
     "contacts":
@@ -169,7 +173,8 @@ export const events = [
     "participation": "TEAM SIZE : 2",
     "imgName": require("./5.png"),
     "poster": require("./5.png"),
-    "about": "Gear up for a drafting duel in 'Design with AutoCAD/Catia'! This challenge invites pairs of aspiring engineers to unleash their design dexterity and architectural acumen. Armed only with traditional drafting tools—leave your cell phones behind—you'll race against time to sketch the future.",
+    "structure": "MCKVIE Students: 50rs/Head, Outside Students: 100rs/Head [Note: Payments will be collected offline, on campus.]",
+    "about": "Gear up for a drafting duel in 'Design with AutoCAD/Catia'! This challenge invites pairs of aspiring engineers to unleash their design dexterity and architectural acumen. Armed only with traditional drafting tools—leave your cell phones behind—you'll race against time to sketch the future. </br> </br> Registration",
     "timeline": "10:00 AM to 01:00 PM on March 6th, 2024",
     "contacts":
       [
@@ -194,6 +199,7 @@ export const events = [
     "participation": "TEAM SIZE : 1-3",
     "imgName": require("./6.png"),
     "poster": require("./6.png"),
+    "structure": "MCKVIE Students: 50rs/Head, Outside Students: 50rs/Head [Note: Payments will be collected offline, on campus.]",
     "about": "Whether solo or in teams of up to three, you're tasked with engineering innovative circuits using provided analog and digital components. With a strict two-hour timeline, precision, and ingenuity are key. Early submissions earn time bonuses, useful for tiebreaks.",
     "timeline": "10:00 AM to 01:00 PM on March 6th, 2024",
     "contacts":
@@ -224,6 +230,7 @@ export const events = [
     "participation": "TEAM SIZE : 2",
     "imgName": require("./7.png"),
     "poster": require("./7.png"),
+    "structure": "MCKVIE Students: 50rs/Head, Outside Students: 100rs/Head [Note: Payments will be collected offline, on campus.]",
     "about": "With a blend of quizzes and hands-on coding, teams of two will navigate the complexities of machine learning, from foundational theories to applied projects. Test your skills in Python, impress the judges with innovative solutions, and vie for the top spot in this machine learning showdown.",
     "timeline": "11:00 AM to 03:00 PM on March 8th, 2024",
     "contacts":
@@ -253,6 +260,7 @@ export const events = [
     "imgName": require("./9.png"),
     "poster": require("./9.png"),
     "payment" : "50inr",
+    "structure": "MCKVIE Students: 50rs/Head, Outside Students: 50rs/Head [Note: Payments will be collected offline, on campus.]",
     "about": "Dive into a world of puzzles, codes, and programming across four intense rounds. Unravel word mysteries, decode jigsaws, master 'C' programming, and navigate lab riddles. Only the sharpest minds will prevail. Are you ready to unlock the secrets and claim victory?",
     "timeline": "10:00 AM to 05:00 PM on March 7th, 2024",
     "contacts":
@@ -286,6 +294,7 @@ export const events = [
     "participation": "TEAM SIZE : 1-3",
     "imgName": require("./8.png"),
     "poster": require("./8.png"),
+    "structure": "MCKVIE Students: 50rs/Head, Outside Students: 50rs/Head [Note: Payments will be collected offline, on campus.]",
     "about": "The quiz consists of three rounds: Prelims with 15 general questions, including 5 tie-breaker questions; Bounce and Pounce cum Mixed Bag with direct questions (+10 for correct answers, no negatives) and elimination rounds; and The Mixed Bag with 6 teams competing in a final round of questions and bonus points, including surprise bumper questions for extra points. Highest scorers are winners, with tie-breakers for top positions.",
     "timeline": "10:00 AM to 03:00 PM on March 8th, 2024",
     "contacts":
@@ -319,6 +328,7 @@ export const events = [
     "participation": "TEAM SIZE : 2",
     "imgName": require("./10.png"),
     "poster": require("./10.png"),
+    "structure": "MCKVIE Students: 50rs/Head, Outside Students: 100rs/Head [Note: Payments will be collected offline, on campus.]",
     "about": "Engage in challenging math problems across two rounds, aiming for a total of 100 marks. Only top performers advance. Teamwork essential.",
     "timeline": "10:00 AM to 05:00 PM on March 6th, 2024",
     "contacts":
@@ -346,6 +356,7 @@ export const events = [
     "participation": "Solo Participation",
     "imgName": require("./11.png"),
     "poster": require("./11.png"),
+    "structure": "MCKVIE Students: 50rs/Head, Outside Students: 100rs/Head [Note: Payments will be collected offline, on campus.]",
     "about": "Dive into the adrenaline-pumping world of NFS Most Wanted, where you outrun rivals and evade cops in heart-stopping street races. Claim the top spot on the blacklist in this ultimate pursuit of speed and freedom!",
     "timeline": "02:00 PM to 05:00 PM on March 6th, 2024",
     "contacts": [
@@ -376,6 +387,7 @@ export const events = [
     "participation": "Solo Participation",
     "imgName": require("./12.png"),
     "poster": require("./12.png"),
+    "structure": "MCKVIE Students: 50rs/Head, Outside Students: 100rs/Head [Note: Payments will be collected offline, on campus.]",
     "about": " International (No club or custom teams allowed)Player changes and strategy changes are limited to 3 times during the game. (The changes before the start of first and second half are not included in this count.",
     "timeline": "02:00 PM to 05:00 PM on March 7th, 2024",
     "contacts": [
@@ -406,6 +418,7 @@ export const events = [
     "participation": "TEAM SIZE : 2-4",
     "imgName": require("./13.png"),
     "poster": require("./13.png"),
+    "structure": "MCKVIE Students: 100rs/Team, Outside Students: 400rs/Team [Note: Payments will be collected offline, on campus.]",
     "about": "Design a robot which plays soccer. The robot would compete against others in 1-1 matches. Arena Specifications: -Will be SURPRISE.",
     "timeline": "10:00 AM to 05:00 PM on March 6th, 2024 to 10:00 AM to 03:00 PM on March 8th, 2024",
     "contacts": [
@@ -452,6 +465,7 @@ export const events = [
       "participation": "TEAM SIZE : 2-4",
       "imgName": require("./14.png"),
     "poster": require("./14.png"),
+    "structure": "MCKVIE Students: 100rs/Team, Outside Students: 400rs/Team [Note: Payments will be collected offline, on campus.]",
       "about": "Build a robot whose task is to push the opposing robot out of the circular ring or flip it over. Different robots compete one-on-one against each other in a knock- out tournament.",
       "timeline": "10:00 AM to 05:00 PM on March 6th, 2024 to 10:00 AM to 03:00 PM on March 8th, 2024",
       "contacts": [
@@ -498,6 +512,7 @@ export const events = [
       "participation": "TEAM SIZE : 2",
       "imgName": require("./15.png"),
     "poster": require("./15.png"),
+    "structure": "MCKVIE Students: 100rs/Team, Outside Students: 400rs/Team [Note: Payments will be collected offline, on campus.]",
       "about": "To build a robot that is able to navigate out of the maze in the quickest time possible from the designated starting point to the ending point. ",
       "timeline": "10:00 AM to 05:00 PM on March 7th, 2024 to 10:00 AM to 03:00 PM on March 8th, 2024",
       "contacts": [
@@ -544,6 +559,7 @@ export const events = [
       "club": "Robotics",
       "participation": "TEAM SIZE : 2-4",
       "imgName": require("./16.png"),
+      "structure": "MCKVIE Students: 100rs/Team, Outside Students: 400rs/Team [Note: Payments will be collected offline, on campus.]",
     "poster": require("./16.png"),
       "about": "To make a robot to follow a white line on a black background, without losing the line and navigating several 90 degree turns. The robot to complete the course in the 14 shortest period of time while accurately tracking the course line from start to end wins",
       "timeline": "10:00 AM to 05:00 PM on March 7th, 2024 to 10:00 AM to 03:00 PM on March 8th, 2024",

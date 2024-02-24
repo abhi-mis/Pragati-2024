@@ -243,7 +243,13 @@ const Explore = ({ auth, setAuth }) => {
                 >
                   Timeline
                 </div>}
-
+                {data[0].structure == "" ? null : <div
+                  className={section === "structure" ? `${styles.explore_navoptions} ${styles.active}` : `${styles.explore_navoptions}`}
+                  onClick={(e) => handleView(e)}
+                  id="structure"
+                >
+                  Registration Fee
+                </div>}
                 
 
                 <div
