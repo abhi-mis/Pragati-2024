@@ -1,0 +1,9 @@
+body{
+    background-color: #020422;
+}
+
+headfont, h1{
+    font-family: Dark;
+    background-clip: text;
+    color: white;
+}

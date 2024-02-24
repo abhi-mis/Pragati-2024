@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Loader from "./components/Loader/Loader";
 import Modal from "./components/Button/Modal";
 import SchedulePage from "./components/Schedule/assets/page";
+import Question from "./components/Doubt/Question";
 const Aboutus = lazy(() => import("./components/About/About"));
 const Sidebar = lazy(() => import("./components/Sidebar/Sidebar"));
 const Explore = lazy(()=>import("./components/Explore/Explore"));
@@ -51,6 +52,7 @@ function App() {
             <Route path="aboutus" element={<Aboutus />} />
             <Route path="schedule" element={<SchedulePage />} />
             <Route path="ourteam" element={<Team />} />
+            <Route path="/question" element={<Question/>}/>
             <Route path="/:name" element={<Explore auth={auth} setAuth={setAuth}/>}/>
             <Route
               path="competitions"
