@@ -181,16 +181,29 @@ const Explore = ({ auth, setAuth }) => {
               />
             </div>
 
-            <a href={data[0].rulebook} target="_blank">
+            <div style={{ display: 'inlinek' }}>
+  <a href={data[0].rulebook} target="_blank">
+    <button
+      className={styles.event_register_button1}
+      onMouseEnter={btnEnter}
+      onMouseLeave={textLeave}
+    >
+      Rulebook
+    </button>
+  </a>
+</div>
+<div style={{ display: 'inline'}}>
+  <a href="https://drive.google.com/file/d/1GsnjUkl4ovlCxT0_LLLsrsrhBheaT2FQ/view?usp=sharing" target="_blank">
+    <button
+      className={styles.event_register_button1}
+      onMouseEnter={btnEnter}
+      onMouseLeave={textLeave}
+    >
+      General Rules
+    </button>
+  </a>
+</div>
 
-              <button
-                className={styles.event_register_button1}
-                onMouseEnter={btnEnter} onMouseLeave={textLeave}
-              >
-                Rulebook
-
-              </button>
-            </a>
 
 
             {/* <a href="/create-team"><button
@@ -230,6 +243,8 @@ const Explore = ({ auth, setAuth }) => {
                 >
                   Timeline
                 </div>}
+
+                
 
                 <div
                   className={section === "contact" ? `${styles.explore_navoptions} ${styles.active}` : `${styles.explore_navoptions}`}

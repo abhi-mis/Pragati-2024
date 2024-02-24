@@ -189,7 +189,7 @@ export const events = [
   },
   {
     "id": "7",
-    "name": "Cicuit Design",
+    "name": "Circuit Design",
     "club": "Coding and Engineering Design",
     "participation": "TEAM SIZE : 1-3",
     "imgName": require("./6.png"),
@@ -252,6 +252,7 @@ export const events = [
     "participation": "TEAM SIZE : 3",
     "imgName": require("./9.png"),
     "poster": require("./9.png"),
+    "payment" : "50inr",
     "about": "Dive into a world of puzzles, codes, and programming across four intense rounds. Unravel word mysteries, decode jigsaws, master 'C' programming, and navigate lab riddles. Only the sharpest minds will prevail. Are you ready to unlock the secrets and claim victory?",
     "timeline": "10:00 AM to 05:00 PM on March 7th, 2024",
     "contacts":
