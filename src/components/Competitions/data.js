@@ -41,7 +41,7 @@ export const events = [
     "poster": require("./1.png"),
     "structure": "MCKVIE STUDENTS : 100rs/Team & OUTSIDE Students : 200rs/Team. [Note: Payments will be collected offline, on campus.]",
     "about": "The guidelines ask for articles in specific topics and a specific format for new ideas. Presentations should be in PowerPoint and include the problem, solution, and why the solution is unique and possible.",
-    "timeline": "09:00 AM to 13:00 PM on January 28th, 2024",
+    "timeline": "10:00 AM to 06:00 PM on 07th March, 2024",
     "contacts":
       [
         {

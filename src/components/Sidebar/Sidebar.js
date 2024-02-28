@@ -99,24 +99,19 @@ export default function Sidebar() {
               <span className="nav-text">Our Team</span>
             </a>
           </li>
-          <li className="has-subnav">
-            <a className="anchor" href="/question">
-              <div className="fa fa-2x">
-                <HelpIcon size={25} />
-              </div>
-              <span className="nav-text">Question</span>
-            </a>
-          </li>
+          
         </ul>
         <ul className="logout">
-          <div className="">
-            <img
-              className="plinth-logo"
-              src={require("./plinth.png")}
-              alt="Plinth Logo"
-              />
-            </div>
-        </ul>
+  <li className="has-subnav">
+    <a className="anchor" href="/question">
+      <div className="fa fa-2x" style={{ transform: 'scale(1.3)', marginLeft: '5px' }}>
+        <HelpIcon size={40} />
+      </div>
+      <span className="nav-text">FAQ</span>
+    </a>
+  </li>
+</ul>
+
       </nav>
     </div>
   );

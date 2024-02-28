@@ -7,3 +7,7 @@ headfont, h1{
     background-clip: text;
     color: white;
 }
+.faq-container {
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+  }
+  
