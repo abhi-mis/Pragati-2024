@@ -174,7 +174,7 @@ export const events = [
     "imgName": require("./5.png"),
     "poster": require("./5.png"),
     "structure": "MCKVIE Students: 50rs/Head, Outside Students: 100rs/Head [Note: Payments will be collected offline, on campus.]",
-    "about": "Gear up for a drafting duel in 'Design with AutoCAD/Catia'! This challenge invites pairs of aspiring engineers to unleash their design dexterity and architectural acumen. Armed only with traditional drafting tools—leave your cell phones behind—you'll race against time to sketch the future. </br> </br> Registration",
+    "about": "Gear up for a drafting duel in 'Design with AutoCAD/Catia'! This challenge invites pairs of aspiring engineers to unleash their design dexterity and architectural acumen. Armed only with traditional drafting tools—leave your cell phones behind—you'll race against time to sketch the future.",
     "timeline": "10:00 AM to 01:00 PM on March 6th, 2024",
     "contacts":
       [
