@@ -28,7 +28,8 @@ function Home({ auth, setAuth }) {
   }, []);
 
   gsap.registerPlugin(CSSPlugin);
-  const futureDate = new Date(2024, 2, 6); // March 6, 2024
+  const futureDate = new Date(2024, 2, 6, 9, 30);
+  // March 6, 2024
 
   const [mousePosition, setMousePosition] = useState({
     x: 0,
