@@ -67,7 +67,9 @@ const Modal = () => {
                   </span>
                 </div>
                 <div className="text-left my-2">
-                  <p className="text-sm text-black">- Payment will be done offline!</p>
+                  <p className="text-sm text-black">- Registration fees for PRAGATI-24 will be collected at B301 from 01:00 PM to 04:30 PM on 04.03.2024 (Monday).
+Collection of registration fees on the event dates is only for the external participants.
+So submit the registration fees as early as possible to avoid the last minute rush.!</p>
                 </div>
                 <div className="flex items-center justify-end gap-2 mt-4">
                   

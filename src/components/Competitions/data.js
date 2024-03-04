@@ -256,7 +256,7 @@ export const events = [
     "id": "9",
     "name": "ENIGMA",
     "club": "Quiz and Mathematical Aptitude",
-    "participation": "TEAM SIZE : 3",
+    "participation": "TEAM SIZE : 2-3",
     "imgName": require("./9.png"),
     "poster": require("./9.png"),
     "payment" : "50inr",
@@ -423,37 +423,14 @@ export const events = [
     "timeline": "10:00 AM to 05:00 PM on March 6th, 2024 to 10:00 AM to 03:00 PM on March 8th, 2024",
     "contacts": [
       {
-        "name": "JAYANT JOSHI",
-        "number": "7059633144",
+        "name": "Suman Das",
+        "number": "------",
       },
       {
-        "name": "BITHIKA DAS",
-        "number": "97980009670",
+        "name": "Jagaran biswas",
+        "number": "------",
       },
-      {
-        "name": "BINIT KUMAR SHA",
-        "number": "9903296261",
-      },
-      {
-        "name": "JAGARAN BISWAS",
-        "number": "8926707701",
-      },
-      {
-        "name": "ARNAB BARDHAN",
-        "number": "7890743642",
-      },
-      {
-        "name": "ABHIJIT MUKHERJEE",
-        "number": "6291513319",
-      },
-      {
-        "name": "SUMAN DAS",
-        "number": "9051672668",
-      },
-      {
-        "name": "SUBHOJIT MAJUMDER",
-        "number": "8697154474",
-      },
+      
     ],
     "rulebook": "https://drive.google.com/file/d/1W_sBVq-2c1DE-D5Yn1MPfWMXzzzan0pv/view?usp=sharing",
     "link": "https://forms.gle/q6PhxwwG7Jhxrkeh6",
