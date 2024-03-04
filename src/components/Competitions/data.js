@@ -441,7 +441,7 @@ export const events = [
       "club": "Robotics",
       "participation": "TEAM SIZE : 2-4",
       "imgName": require("./14.png"),
-    "poster": require("./14.png"),
+    "poster": require("./Robo War Poster.png"),
     "structure": "MCKVIE Students: 100rs/Team, Outside Students: 400rs/Team [Note: Payments will be collected offline, on campus.]",
       "about": "Build a robot whose task is to push the opposing robot out of the circular ring or flip it over. Different robots compete one-on-one against each other in a knock- out tournament.",
       "timeline": "10:00 AM to 05:00 PM on March 6th, 2024 to 10:00 AM to 03:00 PM on March 8th, 2024",
