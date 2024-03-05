@@ -162,8 +162,6 @@ const SchedulePage = () => {
         }}>
           <div className='lg:py-[40px] py-5 lg:px-[72px] px-[36px] border border-white absolute lg:bottom-[-8px] bottom-[-4px] left-[10px] -z-10'></div>
           <b>DAY 1</b></div>
-        
-
         <div className={toggle===2?" tabs active-tabs bg-white text-[#333333] lg:py-8 py-4 lg:px-12 px-6 lg:text-[20px] md:text-md text-xs border border-white relative" : "tabs text-white lg:py-8 py-4 lg:px-12 px-6 lg:text-[20px] md:text-md text-xs bg-[#D7700B] border border-white relative"} onClick={() => {
           toggletab(2)
         }}>
