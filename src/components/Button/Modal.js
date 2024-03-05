@@ -67,9 +67,7 @@ const Modal = () => {
                   </span>
                 </div>
                 <div className="text-left my-2">
-                  <p className="text-sm text-black">-Registration fees for PRAGATI-24 will be collected at <b>B301 from 09:45 AM to 02:30 PM on 05.03.2024 (Tuesday)</b>.</p>
-                  <p className="text-sm text-black">- Collection of registration fees on the event dates is only for the external participants.</p>
-                  <p className="text-sm text-black">- <b>Registration for NFS, Quizomania & Enigma is stopped.</b></p>
+                  <p className="text-sm text-black">- Registration fees will be collected at <b>AMTALA from 8:30 AM to 09:30 AM on 6-3-2024.</b> Please make the payment as early as possible, as you will not receive the EVENT PASS until the registration fees are paid. Without the EVENT PASS, you will not be allowed to participate in the event under any circumstance.</p>
                 </div>
                 <div className="flex items-center justify-end gap-2 mt-4">
                   
