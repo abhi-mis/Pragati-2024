@@ -12,7 +12,8 @@ import { FiAward } from "react-icons/fi";
 import { BiBookAlt } from "react-icons/bi";
 import { AiOutlineTeam } from "react-icons/ai";
 import { MdOutlineCalendarMonth } from "react-icons/md";
-import HelpIcon from '@mui/icons-material/Help';
+import { MdLocationOn } from "react-icons/md";
+import HelpIcon from "@mui/icons-material/Help";
 
 export default function Sidebar() {
   const location = useLocation();
@@ -47,8 +48,6 @@ export default function Sidebar() {
           item = el;
         }}
       >
-
-        
         <ul>
           <li>
             <a className="anchor" href="/">
@@ -99,19 +98,28 @@ export default function Sidebar() {
               <span className="nav-text">Our Team</span>
             </a>
           </li>
-          
         </ul>
         <ul className="logout">
-  <li className="has-subnav">
-    <a className="anchor" href="/question">
-      <div className="fa fa-2x" style={{ transform: 'scale(1.3)', marginLeft: '5px' }}>
-        <HelpIcon size={40} />
-      </div>
-      <span className="nav-text">FAQ</span>
-    </a>
-  </li>
-</ul>
-
+          <li className="has-subnav">
+            <a className="anchor" href="/question">
+              <div
+                className="fa fa-2x"
+                style={{ transform: "scale(1.3)", marginLeft: "5px" }}
+              >
+                <HelpIcon size={40} />
+              </div>
+              <span className="nav-text">FAQ</span>
+            </a>
+          </li>
+        </ul>
+        <li className="has-subnav">
+          <a className="anchor" href="/location">
+            <div className="fa fa-2x">
+              <MdLocationOn size={25} />
+            </div>
+            <span className="nav-text">Allocation</span>
+          </a>
+        </li>
       </nav>
     </div>
   );
