@@ -318,7 +318,7 @@ export const events = [
 
         },
       ],
-    "rulebook": "https://drive.google.com/file/d/1n6uKOP7hjcgmhNHQpDo5XINYUijZ4ye4/view?usp=sharing",
+    "rulebook": "https://drive.google.com/file/d/1jUkcaMO-7ROWb5Zo9ApszjVAh4PX_pk_/view?usp=sharing",
     "link": "https://forms.gle/z5TJhsijRC45RxEW8",
   },
   {
