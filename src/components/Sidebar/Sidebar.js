@@ -98,6 +98,17 @@ export default function Sidebar() {
               <span className="nav-text">Our Team</span>
             </a>
           </li>
+          <li className="has-subnav">
+          <a className="anchor" href="/location">
+          <div
+                className="fa fa-2x"
+                style={{marginLeft: "15px" }}
+              >
+              <MdLocationOn size={25} />
+            </div>
+            <span className="nav-text">Allocation</span>
+          </a>
+        </li>
         </ul>
         <ul className="logout">
           <li className="has-subnav">
@@ -106,20 +117,13 @@ export default function Sidebar() {
                 className="fa fa-2x"
                 style={{ transform: "scale(1.3)", marginLeft: "5px" }}
               >
-                <HelpIcon size={40} />
+                <HelpIcon size={25}/>
               </div>
               <span className="nav-text">FAQ</span>
             </a>
           </li>
         </ul>
-        <li className="has-subnav">
-          <a className="anchor" href="/location">
-            <div className="fa fa-2x">
-              <MdLocationOn size={25} />
-            </div>
-            <span className="nav-text">Allocation</span>
-          </a>
-        </li>
+        
       </nav>
     </div>
   );
