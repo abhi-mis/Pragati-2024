@@ -377,7 +377,7 @@ export const events = [
         "number": "7059633144",
       },
     ],
-    "rulebook": "https://drive.google.com/file/d/1uP5sECOpMuskrJHkNtP2QlWk2ahFmCBt/view?usp=sharing",
+    "rulebook": "https://drive.google.com/file/d/1uAM95IC1jxnFZJnlFzGh1Y6aIT39oLzY/view?usp=sharing",
     "link": "https://forms.gle/Crw4qmpUo1KQeeVp8",
     },
     {
