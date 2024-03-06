@@ -110,7 +110,7 @@ const VerticalCarousel = () => {
           iconStyle={{ background: "#005bea", color: "#fff" }}
           icon={<FaLocationDot />}
         >
-          <h3 className="vertical-timeline-element-title">March 07,2023</h3>
+          <h3 className="vertical-timeline-element-title">March 07,2024</h3>
           <h4 className="vertical-timeline-element-subtitle">
             English Communication Lab
           </h4>
@@ -127,7 +127,7 @@ const VerticalCarousel = () => {
           iconStyle={{ background: "#005bea", color: "#fff" }}
           icon={<FaLocationDot />}
         >
-          <h3 className="vertical-timeline-element-title">March 07,2023</h3>
+          <h3 className="vertical-timeline-element-title">March 07,2024</h3>
           <h4 className="vertical-timeline-element-subtitle">
             B312 & Physics Lab & Chemistry Lab , A101, A102, A104 & A115
           </h4>
@@ -144,7 +144,7 @@ const VerticalCarousel = () => {
           iconStyle={{ background: "#005bea", color: "#fff" }}
           icon={<FaLocationDot />}
         >
-          <h3 className="vertical-timeline-element-title">March 07,2023</h3>
+          <h3 className="vertical-timeline-element-title">March 07,2024</h3>
           <h4 className="vertical-timeline-element-subtitle">
             A301, A314, A317(Lab){" "}
           </h4>
@@ -161,7 +161,7 @@ const VerticalCarousel = () => {
           iconStyle={{ background: "#005bea", color: "#fff" }}
           icon={<FaLocationDot />}
         >
-          <h3 className="vertical-timeline-element-title">March 07,2023</h3>
+          <h3 className="vertical-timeline-element-title">March 07,2024</h3>
           <h4 className="vertical-timeline-element-subtitle">A219(Lab)</h4>
           <p style={{ fontSize: "20px" }}>FIFA</p>
         </VerticalTimelineElement>
@@ -176,7 +176,7 @@ const VerticalCarousel = () => {
           iconStyle={{ background: "#005bea", color: "#fff" }}
           icon={<FaLocationDot />}
         >
-          <h3 className="vertical-timeline-element-title">March 07,2023</h3>
+          <h3 className="vertical-timeline-element-title">March 07,2024</h3>
           <h4 className="vertical-timeline-element-subtitle">Workshop</h4>
           <p style={{ fontSize: "20px" }}>ROBOTICS</p>
         </VerticalTimelineElement>
@@ -191,7 +191,7 @@ const VerticalCarousel = () => {
           iconStyle={{ background: "#005bea", color: "#fff" }}
           icon={<FaLocationDot />}
         >
-          <h3 className="vertical-timeline-element-title">March 08,2023</h3>
+          <h3 className="vertical-timeline-element-title">March 08,2024</h3>
           <h4 className="vertical-timeline-element-subtitle">
             B309 (DRAWING HALL)
           </h4>
@@ -208,9 +208,9 @@ const VerticalCarousel = () => {
           iconStyle={{ background: "#005bea", color: "#fff" }}
           icon={<FaLocationDot />}
         >
-          <h3 className="vertical-timeline-element-title">March 08,2023</h3>
+          <h3 className="vertical-timeline-element-title">March 08,2024</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            B309 ,B301 ,A204
+            B209 ,B201 ,A204
           </h4>
           <p style={{ fontSize: "20px" }}>QUIZOMANIA</p>
         </VerticalTimelineElement>
@@ -224,7 +224,7 @@ const VerticalCarousel = () => {
           iconStyle={{ background: "#005bea", color: "#fff" }}
           icon={<FaLocationDot />}
         >
-          <h3 className="vertical-timeline-element-title">March 08,2023</h3>
+          <h3 className="vertical-timeline-element-title">March 08,2024</h3>
           <h4 className="vertical-timeline-element-subtitle">
             A301, A304 , A318(Lab)
           </h4>
@@ -241,7 +241,7 @@ const VerticalCarousel = () => {
           iconStyle={{ background: "#005bea", color: "#fff" }}
           icon={<FaLocationDot />}
         >
-          <h3 className="vertical-timeline-element-title">March 08,2023</h3>
+          <h3 className="vertical-timeline-element-title">March 08,2024</h3>
           <h4 className="vertical-timeline-element-subtitle">Workshop</h4>
           <p style={{ fontSize: "20px" }}>ROBOTICS(FINAL)</p>
         </VerticalTimelineElement>
