@@ -67,8 +67,11 @@ const Modal = () => {
                   </span>
                 </div>
                 <div className="text-left my-2">
-                  <p className="text-sm text-black">- Registration fees will be collected at <b>AMTALA from 8:30 AM to 09:30 AM on 6-3-2024.</b> Please make the payment as early as possible, as you will not receive the EVENT PASS until the registration fees are paid. Without the EVENT PASS, you will not be allowed to participate in the event under any circumstance.</p>
-                </div>
+  <p className="text-sm text-black">
+    Download Certificate <a href="https://drive.google.com/drive/folders/1sPZWDrqms8rhx5ZmZarI_tstqdBthzbp?usp=sharing" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">CLICK</a>.
+  </p>
+</div>
+
                 <div className="flex items-center justify-end gap-2 mt-4">
                   
                 </div>
