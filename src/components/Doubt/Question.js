@@ -19,7 +19,7 @@ const questionsData = [
   },
   {
     question: " - What's the Venue",
-    answer: 'MCKVIE Campus, Liluah.',
+    answer: 'MCKVIE Campus, Liluah, WestBengal.',
   },
   {
     question: " - How to register?",
